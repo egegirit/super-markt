@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-
+// The class that initializes/reads sample product data with the given input type (CSV, SQL, SAMPLE)
 public class InputManager {
 
     // Initialize the products based on the desired input type
@@ -22,23 +22,23 @@ public class InputManager {
             Cheese cheese1 = new Cheese("Cheese Not In Interval", 45, 10.0, Utility.addDaysToCurrentDate(Main.currentDate, 15));
             Cheese cheese2 = new Cheese("Cheese Bad Quality", 10, 7.0, Utility.addDaysToCurrentDate(Main.currentDate, 55));
             Cheese cheese3 = new Cheese("Cheese Valid", 40, 5.0, Utility.addDaysToCurrentDate(Main.currentDate, 65));
+            Cheese cheese4 = new Cheese("Cheese Soon Bad Quality", 31, 10.0, Utility.addDaysToCurrentDate(Main.currentDate, 65));
             Wine wine1 = new Wine("Wine Valid", 15, 30.0, Utility.addDaysToCurrentDate(Main.currentDate, 30));
             Wine wine2 = new Wine("Wine Low Quality", -5, 20.0, Utility.addDaysToCurrentDate(Main.currentDate, 5));
             Wine wine3 = new Wine("Wine Expired", 3, 10.0, Utility.addDaysToCurrentDate(Main.currentDate, -2));
-            CustomProduct custom1 = new CustomProduct("Custom Expired", 3, 10.0, Utility.addDaysToCurrentDate(Main.currentDate, -2));
-            CustomProduct custom2 = new CustomProduct("Custom Low Quality", -100, 15.0, Utility.addDaysToCurrentDate(Main.currentDate, 5));
-            CustomProduct custom3 = new CustomProduct("Custom Valid", 10, 12.0, Utility.addDaysToCurrentDate(Main.currentDate, 50));
+            CustomProduct custom1 = new CustomProduct("Custom Low Quality", -100, 15.0, Utility.addDaysToCurrentDate(Main.currentDate, 5));
+            CustomProduct custom2 = new CustomProduct("Custom Valid", 10, 12.0, Utility.addDaysToCurrentDate(Main.currentDate, 50));
 
             // Add the products to the list
             products.add(cheese1);
             products.add(cheese2);
             products.add(cheese3);
+            products.add(cheese4);
             products.add(wine1);
             products.add(wine2);
             products.add(wine3);
             products.add(custom1);
             products.add(custom2);
-            products.add(custom3);
 
         } // Read the products from a CSV file
         else if (inputType.equals(InputType.CSV)) {

@@ -62,4 +62,11 @@ public class Shelf {
             }
         }
     }
+
+    // Update the contents of the shelf by checking whether the products should be removed
+    public void updateAndList(Shelf shelf, Date currentDate) {
+        shelf.updateShelf(currentDate);
+        shelf.listProductsOfShelf();
+    }
+
 }

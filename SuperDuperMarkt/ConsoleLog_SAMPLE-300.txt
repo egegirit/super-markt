@@ -1,4 +1,4 @@
-"C:\Program Files\Java\jdk-19\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=57822:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\egegi\Desktop\supermarkt\super-markt\SuperDuperMarkt\out\production\SuperDuperMarkt;C:\Users\egegi\Desktop\opencsv-3.8.jar;C:\Users\egegi\Desktop\sqlite-jdbc-3.7.2.jar Main
+"C:\Program Files\Java\jdk-19\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=58509:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\egegi\Desktop\supermarkt\super-markt\SuperDuperMarkt\out\production\SuperDuperMarkt;C:\Users\egegi\Desktop\opencsv-3.8.jar;C:\Users\egegi\Desktop\sqlite-jdbc-3.7.2.jar Main
 Selected input type: SAMPLE
 
 ==== Start day (26-11-2022) ====
@@ -50,16 +50,15 @@ Listing the products in the shelf (27-11-2022)
    -> Updated quality of "Cheese Valid" from 39 to 38
    -> Updated price of "Cheese Valid" from 8.9 to 8.8
 
-   -> Updated quality of "Custom Valid" from 10 to 4
-   -> Updated price of "Custom Valid" from 13.0 to 12.4
+   -> Updated quality of "Custom Valid" from 10 to 17
+   -> Updated price of "Custom Valid" from 13.0 to 13.7
 
-  (!) Low quality (4) item found: Custom Valid
-  (-) Removing item from shelf: (Custom Valid | 4 | 12.4 | 15-01-2023)
 Listing the products in the shelf (28-11-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Cheese Valid | 38 | 8.8 | 30-01-2023)
   [2] (Wine Valid | 15 | 31.5 | 26-12-2022)
   [3] (Wine Expired | 3 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 17 | 13.7 | 15-01-2023)
 
 ==== [ DAY 3 ] (29-11-2022) ====
    -> Updated quality of "Cheese Valid" from 38 to 37
@@ -70,11 +69,17 @@ Listing the products in the shelf (29-11-2022)
   [1] (Cheese Valid | 37 | 8.7 | 30-01-2023)
   [2] (Wine Valid | 15 | 31.5 | 26-12-2022)
   [3] (Wine Expired | 3 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 17 | 13.7 | 15-01-2023)
 
 ==== [ DAY 4 ] (30-11-2022) ====
    -> Updated quality of "Cheese Valid" from 37 to 36
    -> Updated price of "Cheese Valid" from 8.7 to 8.6
 
+   -> Updated quality of "Custom Valid" from 17 to 8
+   -> Updated price of "Custom Valid" from 13.7 to 12.8
+
+  (!) Low quality (8) item found: Custom Valid
+  (-) Removing item from shelf: (Custom Valid | 8 | 12.8 | 15-01-2023)
 Listing the products in the shelf (30-11-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Cheese Valid | 36 | 8.6 | 30-01-2023)

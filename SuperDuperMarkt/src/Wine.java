@@ -18,6 +18,7 @@ public class Wine extends Product {
         this.setVariableQuality(false);
     }
 
+    // Wine does not expire
     public boolean expiryDateIsValid(Date expiryDate, Date currentDate) {
         return true;
     }

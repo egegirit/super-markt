@@ -13,6 +13,8 @@ import java.util.Date;
 import java.util.Locale;
 
 
+// The class that creates SQLite database to store products
+// and read the products from a database file
 public class SQLConnection {
 
     // Connect to the database with the given name

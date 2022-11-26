@@ -1,4 +1,4 @@
-"C:\Program Files\Java\jdk-19\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=57842:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\egegi\Desktop\supermarkt\super-markt\SuperDuperMarkt\out\production\SuperDuperMarkt;C:\Users\egegi\Desktop\opencsv-3.8.jar;C:\Users\egegi\Desktop\sqlite-jdbc-3.7.2.jar Main
+"C:\Program Files\Java\jdk-19\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=58527:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\egegi\Desktop\supermarkt\super-markt\SuperDuperMarkt\out\production\SuperDuperMarkt;C:\Users\egegi\Desktop\opencsv-3.8.jar;C:\Users\egegi\Desktop\sqlite-jdbc-3.7.2.jar Main
 Selected input type: CSV
 
   Reading CSV file from Products.csv
@@ -85,8 +85,8 @@ Listing the products in the shelf (27-11-2022)
    -> Updated quality of "Soon bad quality cheese" from 30 to 29
    -> Updated price of "Soon bad quality cheese" from 34.0 to 33.9
 
-   -> Updated quality of "Custom Product 1" from 45 to 41
-   -> Updated price of "Custom Product 1" from 54.5 to 54.1
+   -> Updated quality of "Custom Product 1" from 45 to 39
+   -> Updated price of "Custom Product 1" from 54.5 to 53.9
 
    -> Updated quality of "Custom Product 2" from 35 to 31
    -> Updated price of "Custom Product 2" from 33.5 to 33.1
@@ -99,7 +99,7 @@ Listing the products in the shelf (28-11-2022)
   [2] (Expired Wine | 18 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 30 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 43 | 9.3 | 01-02-2023)
-  [5] (Custom Product 1 | 41 | 54.1 | 02-12-2022)
+  [5] (Custom Product 1 | 39 | 53.9 | 02-12-2022)
   [6] (Custom Product 2 | 31 | 33.1 | 29-11-2022)
 
 ==== [ DAY 3 ] (29-11-2022) ====
@@ -112,18 +112,18 @@ Listing the products in the shelf (29-11-2022)
   [2] (Expired Wine | 18 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 30 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 42 | 9.2 | 01-02-2023)
-  [5] (Custom Product 1 | 41 | 54.1 | 02-12-2022)
+  [5] (Custom Product 1 | 39 | 53.9 | 02-12-2022)
   [6] (Custom Product 2 | 31 | 33.1 | 29-11-2022)
 
 ==== [ DAY 4 ] (30-11-2022) ====
    -> Updated quality of "Valid Cheese" from 42 to 41
    -> Updated price of "Valid Cheese" from 9.2 to 9.100000000000001
 
-   -> Updated quality of "Custom Product 1" from 41 to 36
-   -> Updated price of "Custom Product 1" from 54.1 to 53.6
+   -> Updated quality of "Custom Product 1" from 39 to 36
+   -> Updated price of "Custom Product 1" from 53.9 to 53.6
 
-   -> Updated quality of "Custom Product 2" from 31 to 25
-   -> Updated price of "Custom Product 2" from 33.1 to 32.5
+   -> Updated quality of "Custom Product 2" from 31 to 24
+   -> Updated price of "Custom Product 2" from 33.1 to 32.4
 
 Listing the products in the shelf (30-11-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
@@ -132,7 +132,7 @@ Listing the products in the shelf (30-11-2022)
   [3] (Wine From Ancient Times | 30 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 41 | 9.100000000000001 | 01-02-2023)
   [5] (Custom Product 1 | 36 | 53.6 | 02-12-2022)
-  [6] (Custom Product 2 | 25 | 32.5 | 29-11-2022)
+  [6] (Custom Product 2 | 24 | 32.4 | 29-11-2022)
 
 ==== [ DAY 5 ] (01-12-2022) ====
    -> Updated quality of "Valid Cheese" from 41 to 40
@@ -145,17 +145,17 @@ Listing the products in the shelf (01-12-2022)
   [3] (Wine From Ancient Times | 30 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 40 | 9.0 | 01-02-2023)
   [5] (Custom Product 1 | 36 | 53.6 | 02-12-2022)
-  [6] (Custom Product 2 | 25 | 32.5 | 29-11-2022)
+  [6] (Custom Product 2 | 24 | 32.4 | 29-11-2022)
 
 ==== [ DAY 6 ] (02-12-2022) ====
    -> Updated quality of "Valid Cheese" from 40 to 39
    -> Updated price of "Valid Cheese" from 9.0 to 8.9
 
-   -> Updated quality of "Custom Product 1" from 36 to 43
-   -> Updated price of "Custom Product 1" from 53.6 to 54.3
+   -> Updated quality of "Custom Product 1" from 36 to 46
+   -> Updated price of "Custom Product 1" from 53.6 to 54.6
 
-   -> Updated quality of "Custom Product 2" from 25 to 19
-   -> Updated price of "Custom Product 2" from 32.5 to 31.9
+   -> Updated quality of "Custom Product 2" from 24 to 21
+   -> Updated price of "Custom Product 2" from 32.4 to 32.1
 
 Listing the products in the shelf (02-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
@@ -163,8 +163,8 @@ Listing the products in the shelf (02-12-2022)
   [2] (Expired Wine | 18 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 30 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 39 | 8.9 | 01-02-2023)
-  [5] (Custom Product 1 | 43 | 54.3 | 02-12-2022)
-  [6] (Custom Product 2 | 19 | 31.9 | 29-11-2022)
+  [5] (Custom Product 1 | 46 | 54.6 | 02-12-2022)
+  [6] (Custom Product 2 | 21 | 32.1 | 29-11-2022)
 
 ==== [ DAY 7 ] (03-12-2022) ====
    -> Updated quality of "Valid Cheese" from 39 to 38
@@ -176,15 +176,18 @@ Listing the products in the shelf (03-12-2022)
   [2] (Expired Wine | 18 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 30 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 38 | 8.8 | 01-02-2023)
-  [5] (Custom Product 1 | 43 | 54.3 | 02-12-2022)
-  [6] (Custom Product 2 | 19 | 31.9 | 29-11-2022)
+  [5] (Custom Product 1 | 46 | 54.6 | 02-12-2022)
+  [6] (Custom Product 2 | 21 | 32.1 | 29-11-2022)
 
 ==== [ DAY 8 ] (04-12-2022) ====
    -> Updated quality of "Valid Cheese" from 38 to 37
    -> Updated price of "Valid Cheese" from 8.8 to 8.7
 
-   -> Updated quality of "Custom Product 2" from 19 to 24
-   -> Updated price of "Custom Product 2" from 31.9 to 32.4
+   -> Updated quality of "Custom Product 1" from 46 to 37
+   -> Updated price of "Custom Product 1" from 54.6 to 53.7
+
+   -> Updated quality of "Custom Product 2" from 21 to 19
+   -> Updated price of "Custom Product 2" from 32.1 to 31.9
 
 Listing the products in the shelf (04-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
@@ -192,8 +195,8 @@ Listing the products in the shelf (04-12-2022)
   [2] (Expired Wine | 18 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 30 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 37 | 8.7 | 01-02-2023)
-  [5] (Custom Product 1 | 43 | 54.3 | 02-12-2022)
-  [6] (Custom Product 2 | 24 | 32.4 | 29-11-2022)
+  [5] (Custom Product 1 | 37 | 53.7 | 02-12-2022)
+  [6] (Custom Product 2 | 19 | 31.9 | 29-11-2022)
 
 ==== [ DAY 9 ] (05-12-2022) ====
    -> Updated quality of "Valid Cheese" from 37 to 36
@@ -205,8 +208,8 @@ Listing the products in the shelf (05-12-2022)
   [2] (Expired Wine | 18 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 30 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 36 | 8.6 | 01-02-2023)
-  [5] (Custom Product 1 | 43 | 54.3 | 02-12-2022)
-  [6] (Custom Product 2 | 24 | 32.4 | 29-11-2022)
+  [5] (Custom Product 1 | 37 | 53.7 | 02-12-2022)
+  [6] (Custom Product 2 | 19 | 31.9 | 29-11-2022)
 
 ==== [ DAY 10 ] (06-12-2022) ====
    -> Updated quality of "Valid Wine" from 20 to 21
@@ -218,11 +221,11 @@ Listing the products in the shelf (05-12-2022)
    -> Updated quality of "Valid Cheese" from 36 to 35
    -> Updated price of "Valid Cheese" from 8.6 to 8.5
 
-   -> Updated quality of "Custom Product 1" from 43 to 44
-   -> Updated price of "Custom Product 1" from 54.3 to 54.4
+   -> Updated quality of "Custom Product 1" from 37 to 42
+   -> Updated price of "Custom Product 1" from 53.7 to 54.2
 
-   -> Updated quality of "Custom Product 2" from 24 to 32
-   -> Updated price of "Custom Product 2" from 32.4 to 33.2
+   -> Updated quality of "Custom Product 2" from 19 to 11
+   -> Updated price of "Custom Product 2" from 31.9 to 31.1
 
 Listing the products in the shelf (06-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
@@ -230,8 +233,8 @@ Listing the products in the shelf (06-12-2022)
   [2] (Expired Wine | 19 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 31 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 35 | 8.5 | 01-02-2023)
-  [5] (Custom Product 1 | 44 | 54.4 | 02-12-2022)
-  [6] (Custom Product 2 | 32 | 33.2 | 29-11-2022)
+  [5] (Custom Product 1 | 42 | 54.2 | 02-12-2022)
+  [6] (Custom Product 2 | 11 | 31.1 | 29-11-2022)
 
 ==== [ DAY 11 ] (07-12-2022) ====
    -> Updated quality of "Valid Cheese" from 35 to 34
@@ -243,19 +246,21 @@ Listing the products in the shelf (07-12-2022)
   [2] (Expired Wine | 19 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 31 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 34 | 8.4 | 01-02-2023)
-  [5] (Custom Product 1 | 44 | 54.4 | 02-12-2022)
-  [6] (Custom Product 2 | 32 | 33.2 | 29-11-2022)
+  [5] (Custom Product 1 | 42 | 54.2 | 02-12-2022)
+  [6] (Custom Product 2 | 11 | 31.1 | 29-11-2022)
 
 ==== [ DAY 12 ] (08-12-2022) ====
    -> Updated quality of "Valid Cheese" from 34 to 33
    -> Updated price of "Valid Cheese" from 8.4 to 8.3
 
-   -> Updated quality of "Custom Product 1" from 44 to 50
-   -> Updated price of "Custom Product 1" from 54.4 to 55.0
+   -> Updated quality of "Custom Product 1" from 42 to 50
+   -> Updated price of "Custom Product 1" from 54.2 to 55.0
 
-   -> Updated quality of "Custom Product 2" from 32 to 29
-   -> Updated price of "Custom Product 2" from 33.2 to 32.9
+   -> Updated quality of "Custom Product 2" from 11 to 8
+   -> Updated price of "Custom Product 2" from 31.1 to 30.8
 
+  (!) Low quality (8) item found: Custom Product 2
+  (-) Removing item from shelf: (Custom Product 2 | 8 | 30.8 | 29-11-2022)
 Listing the products in the shelf (08-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 21 | 27.0 | 29-11-2022)
@@ -263,7 +268,6 @@ Listing the products in the shelf (08-12-2022)
   [3] (Wine From Ancient Times | 31 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 33 | 8.3 | 01-02-2023)
   [5] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
-  [6] (Custom Product 2 | 29 | 32.9 | 29-11-2022)
 
 ==== [ DAY 13 ] (09-12-2022) ====
    -> Updated quality of "Valid Cheese" from 33 to 32
@@ -276,17 +280,13 @@ Listing the products in the shelf (09-12-2022)
   [3] (Wine From Ancient Times | 31 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 32 | 8.2 | 01-02-2023)
   [5] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
-  [6] (Custom Product 2 | 29 | 32.9 | 29-11-2022)
 
 ==== [ DAY 14 ] (10-12-2022) ====
    -> Updated quality of "Valid Cheese" from 32 to 31
    -> Updated price of "Valid Cheese" from 8.2 to 8.1
 
-   -> Updated quality of "Custom Product 1" from 50 to 41
-   -> Updated price of "Custom Product 1" from 55.0 to 54.1
-
-   -> Updated quality of "Custom Product 2" from 29 to 35
-   -> Updated price of "Custom Product 2" from 32.9 to 33.5
+   -> Updated quality of "Custom Product 1" from 50 to 40
+   -> Updated price of "Custom Product 1" from 55.0 to 54.0
 
 Listing the products in the shelf (10-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
@@ -294,8 +294,7 @@ Listing the products in the shelf (10-12-2022)
   [2] (Expired Wine | 19 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 31 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 31 | 8.1 | 01-02-2023)
-  [5] (Custom Product 1 | 41 | 54.1 | 02-12-2022)
-  [6] (Custom Product 2 | 35 | 33.5 | 29-11-2022)
+  [5] (Custom Product 1 | 40 | 54.0 | 02-12-2022)
 
 ==== [ DAY 15 ] (11-12-2022) ====
    -> Updated quality of "Valid Cheese" from 31 to 30
@@ -307,18 +306,14 @@ Listing the products in the shelf (11-12-2022)
   [2] (Expired Wine | 19 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 31 | 10002.0 | 01-10-0500)
   [4] (Valid Cheese | 30 | 8.0 | 01-02-2023)
-  [5] (Custom Product 1 | 41 | 54.1 | 02-12-2022)
-  [6] (Custom Product 2 | 35 | 33.5 | 29-11-2022)
+  [5] (Custom Product 1 | 40 | 54.0 | 02-12-2022)
 
 ==== [ DAY 16 ] (12-12-2022) ====
    -> Updated quality of "Valid Cheese" from 30 to 29
    -> Updated price of "Valid Cheese" from 8.0 to 7.9
 
-   -> Updated quality of "Custom Product 1" from 41 to 37
-   -> Updated price of "Custom Product 1" from 54.1 to 53.7
-
-   -> Updated quality of "Custom Product 2" from 35 to 34
-   -> Updated price of "Custom Product 2" from 33.5 to 33.4
+   -> Updated quality of "Custom Product 1" from 40 to 47
+   -> Updated price of "Custom Product 1" from 54.0 to 54.7
 
   (!) Low quality (29) item found: Valid Cheese
   (-) Removing item from shelf: (Valid Cheese | 29 | 7.9 | 01-02-2023)
@@ -327,8 +322,7 @@ Listing the products in the shelf (12-12-2022)
   [1] (Valid Wine | 21 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 19 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 31 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 37 | 53.7 | 02-12-2022)
-  [5] (Custom Product 2 | 34 | 33.4 | 29-11-2022)
+  [4] (Custom Product 1 | 47 | 54.7 | 02-12-2022)
 
 ==== [ DAY 17 ] (13-12-2022) ====
 Listing the products in the shelf (13-12-2022)
@@ -336,23 +330,18 @@ Listing the products in the shelf (13-12-2022)
   [1] (Valid Wine | 21 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 19 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 31 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 37 | 53.7 | 02-12-2022)
-  [5] (Custom Product 2 | 34 | 33.4 | 29-11-2022)
+  [4] (Custom Product 1 | 47 | 54.7 | 02-12-2022)
 
 ==== [ DAY 18 ] (14-12-2022) ====
-   -> Updated quality of "Custom Product 1" from 37 to 40
-   -> Updated price of "Custom Product 1" from 53.7 to 54.0
-
-   -> Updated quality of "Custom Product 2" from 34 to 35
-   -> Updated price of "Custom Product 2" from 33.4 to 33.5
+   -> Updated quality of "Custom Product 1" from 47 to 50
+   -> Updated price of "Custom Product 1" from 54.7 to 55.0
 
 Listing the products in the shelf (14-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 21 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 19 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 31 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 40 | 54.0 | 02-12-2022)
-  [5] (Custom Product 2 | 35 | 33.5 | 29-11-2022)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 19 ] (15-12-2022) ====
 Listing the products in the shelf (15-12-2022)
@@ -360,8 +349,7 @@ Listing the products in the shelf (15-12-2022)
   [1] (Valid Wine | 21 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 19 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 31 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 40 | 54.0 | 02-12-2022)
-  [5] (Custom Product 2 | 35 | 33.5 | 29-11-2022)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 20 ] (16-12-2022) ====
    -> Updated quality of "Valid Wine" from 21 to 22
@@ -370,19 +358,15 @@ Listing the products in the shelf (15-12-2022)
 
    -> Updated quality of "Wine From Ancient Times" from 31 to 32
 
-   -> Updated quality of "Custom Product 1" from 40 to 49
-   -> Updated price of "Custom Product 1" from 54.0 to 54.9
-
-   -> Updated quality of "Custom Product 2" from 35 to 29
-   -> Updated price of "Custom Product 2" from 33.5 to 32.9
+   -> Updated quality of "Custom Product 1" from 50 to 45
+   -> Updated price of "Custom Product 1" from 55.0 to 54.5
 
 Listing the products in the shelf (16-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 22 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 20 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 32 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 49 | 54.9 | 02-12-2022)
-  [5] (Custom Product 2 | 29 | 32.9 | 29-11-2022)
+  [4] (Custom Product 1 | 45 | 54.5 | 02-12-2022)
 
 ==== [ DAY 21 ] (17-12-2022) ====
 Listing the products in the shelf (17-12-2022)
@@ -390,23 +374,18 @@ Listing the products in the shelf (17-12-2022)
   [1] (Valid Wine | 22 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 20 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 32 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 49 | 54.9 | 02-12-2022)
-  [5] (Custom Product 2 | 29 | 32.9 | 29-11-2022)
+  [4] (Custom Product 1 | 45 | 54.5 | 02-12-2022)
 
 ==== [ DAY 22 ] (18-12-2022) ====
-   -> Updated quality of "Custom Product 1" from 49 to 50
-   -> Updated price of "Custom Product 1" from 54.9 to 55.0
-
-   -> Updated quality of "Custom Product 2" from 29 to 33
-   -> Updated price of "Custom Product 2" from 32.9 to 33.3
+   -> Updated quality of "Custom Product 1" from 45 to 44
+   -> Updated price of "Custom Product 1" from 54.5 to 54.4
 
 Listing the products in the shelf (18-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 22 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 20 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 32 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
-  [5] (Custom Product 2 | 33 | 33.3 | 29-11-2022)
+  [4] (Custom Product 1 | 44 | 54.4 | 02-12-2022)
 
 ==== [ DAY 23 ] (19-12-2022) ====
 Listing the products in the shelf (19-12-2022)
@@ -414,23 +393,18 @@ Listing the products in the shelf (19-12-2022)
   [1] (Valid Wine | 22 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 20 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 32 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
-  [5] (Custom Product 2 | 33 | 33.3 | 29-11-2022)
+  [4] (Custom Product 1 | 44 | 54.4 | 02-12-2022)
 
 ==== [ DAY 24 ] (20-12-2022) ====
-   -> Updated quality of "Custom Product 1" from 50 to 45
-   -> Updated price of "Custom Product 1" from 55.0 to 54.5
-
-   -> Updated quality of "Custom Product 2" from 33 to 30
-   -> Updated price of "Custom Product 2" from 33.3 to 33.0
+   -> Updated quality of "Custom Product 1" from 44 to 50
+   -> Updated price of "Custom Product 1" from 54.4 to 55.0
 
 Listing the products in the shelf (20-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 22 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 20 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 32 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 45 | 54.5 | 02-12-2022)
-  [5] (Custom Product 2 | 30 | 33.0 | 29-11-2022)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 25 ] (21-12-2022) ====
 Listing the products in the shelf (21-12-2022)
@@ -438,23 +412,15 @@ Listing the products in the shelf (21-12-2022)
   [1] (Valid Wine | 22 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 20 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 32 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 45 | 54.5 | 02-12-2022)
-  [5] (Custom Product 2 | 30 | 33.0 | 29-11-2022)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 26 ] (22-12-2022) ====
-   -> Updated quality of "Custom Product 1" from 45 to 35
-   -> Updated price of "Custom Product 1" from 54.5 to 53.5
-
-   -> Updated quality of "Custom Product 2" from 30 to 28
-   -> Updated price of "Custom Product 2" from 33.0 to 32.8
-
 Listing the products in the shelf (22-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 22 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 20 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 32 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 35 | 53.5 | 02-12-2022)
-  [5] (Custom Product 2 | 28 | 32.8 | 29-11-2022)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 27 ] (23-12-2022) ====
 Listing the products in the shelf (23-12-2022)
@@ -462,23 +428,18 @@ Listing the products in the shelf (23-12-2022)
   [1] (Valid Wine | 22 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 20 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 32 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 35 | 53.5 | 02-12-2022)
-  [5] (Custom Product 2 | 28 | 32.8 | 29-11-2022)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 28 ] (24-12-2022) ====
-   -> Updated quality of "Custom Product 1" from 35 to 33
-   -> Updated price of "Custom Product 1" from 53.5 to 53.3
-
-   -> Updated quality of "Custom Product 2" from 28 to 25
-   -> Updated price of "Custom Product 2" from 32.8 to 32.5
+   -> Updated quality of "Custom Product 1" from 50 to 46
+   -> Updated price of "Custom Product 1" from 55.0 to 54.6
 
 Listing the products in the shelf (24-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 22 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 20 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 32 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 33 | 53.3 | 02-12-2022)
-  [5] (Custom Product 2 | 25 | 32.5 | 29-11-2022)
+  [4] (Custom Product 1 | 46 | 54.6 | 02-12-2022)
 
 ==== [ DAY 29 ] (25-12-2022) ====
 Listing the products in the shelf (25-12-2022)
@@ -486,8 +447,7 @@ Listing the products in the shelf (25-12-2022)
   [1] (Valid Wine | 22 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 20 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 32 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 33 | 53.3 | 02-12-2022)
-  [5] (Custom Product 2 | 25 | 32.5 | 29-11-2022)
+  [4] (Custom Product 1 | 46 | 54.6 | 02-12-2022)
 
 ==== [ DAY 30 ] (26-12-2022) ====
    -> Updated quality of "Valid Wine" from 22 to 23
@@ -496,19 +456,15 @@ Listing the products in the shelf (25-12-2022)
 
    -> Updated quality of "Wine From Ancient Times" from 32 to 33
 
-   -> Updated quality of "Custom Product 1" from 33 to 28
-   -> Updated price of "Custom Product 1" from 53.3 to 52.8
-
-   -> Updated quality of "Custom Product 2" from 25 to 19
-   -> Updated price of "Custom Product 2" from 32.5 to 31.9
+   -> Updated quality of "Custom Product 1" from 46 to 50
+   -> Updated price of "Custom Product 1" from 54.6 to 55.0
 
 Listing the products in the shelf (26-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 23 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 21 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 33 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 28 | 52.8 | 02-12-2022)
-  [5] (Custom Product 2 | 19 | 31.9 | 29-11-2022)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 31 ] (27-12-2022) ====
 Listing the products in the shelf (27-12-2022)
@@ -516,23 +472,18 @@ Listing the products in the shelf (27-12-2022)
   [1] (Valid Wine | 23 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 21 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 33 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 28 | 52.8 | 02-12-2022)
-  [5] (Custom Product 2 | 19 | 31.9 | 29-11-2022)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 32 ] (28-12-2022) ====
-   -> Updated quality of "Custom Product 1" from 28 to 36
-   -> Updated price of "Custom Product 1" from 52.8 to 53.6
-
-   -> Updated quality of "Custom Product 2" from 19 to 10
-   -> Updated price of "Custom Product 2" from 31.9 to 31.0
+   -> Updated quality of "Custom Product 1" from 50 to 48
+   -> Updated price of "Custom Product 1" from 55.0 to 54.8
 
 Listing the products in the shelf (28-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 23 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 21 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 33 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 36 | 53.6 | 02-12-2022)
-  [5] (Custom Product 2 | 10 | 31.0 | 29-11-2022)
+  [4] (Custom Product 1 | 48 | 54.8 | 02-12-2022)
 
 ==== [ DAY 33 ] (29-12-2022) ====
 Listing the products in the shelf (29-12-2022)
@@ -540,24 +491,18 @@ Listing the products in the shelf (29-12-2022)
   [1] (Valid Wine | 23 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 21 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 33 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 36 | 53.6 | 02-12-2022)
-  [5] (Custom Product 2 | 10 | 31.0 | 29-11-2022)
+  [4] (Custom Product 1 | 48 | 54.8 | 02-12-2022)
 
 ==== [ DAY 34 ] (30-12-2022) ====
-   -> Updated quality of "Custom Product 1" from 36 to 27
-   -> Updated price of "Custom Product 1" from 53.6 to 52.7
+   -> Updated quality of "Custom Product 1" from 48 to 49
+   -> Updated price of "Custom Product 1" from 54.8 to 54.9
 
-   -> Updated quality of "Custom Product 2" from 10 to 4
-   -> Updated price of "Custom Product 2" from 31.0 to 30.4
-
-  (!) Low quality (4) item found: Custom Product 2
-  (-) Removing item from shelf: (Custom Product 2 | 4 | 30.4 | 29-11-2022)
 Listing the products in the shelf (30-12-2022)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 23 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 21 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 33 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 27 | 52.7 | 02-12-2022)
+  [4] (Custom Product 1 | 49 | 54.9 | 02-12-2022)
 
 ==== [ DAY 35 ] (31-12-2022) ====
 Listing the products in the shelf (31-12-2022)
@@ -565,18 +510,18 @@ Listing the products in the shelf (31-12-2022)
   [1] (Valid Wine | 23 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 21 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 33 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 27 | 52.7 | 02-12-2022)
+  [4] (Custom Product 1 | 49 | 54.9 | 02-12-2022)
 
 ==== [ DAY 36 ] (01-01-2023) ====
-   -> Updated quality of "Custom Product 1" from 27 to 19
-   -> Updated price of "Custom Product 1" from 52.7 to 51.9
+   -> Updated quality of "Custom Product 1" from 49 to 50
+   -> Updated price of "Custom Product 1" from 54.9 to 55.0
 
 Listing the products in the shelf (01-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 23 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 21 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 33 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 19 | 51.9 | 02-12-2022)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 37 ] (02-01-2023) ====
 Listing the products in the shelf (02-01-2023)
@@ -584,18 +529,18 @@ Listing the products in the shelf (02-01-2023)
   [1] (Valid Wine | 23 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 21 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 33 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 19 | 51.9 | 02-12-2022)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 38 ] (03-01-2023) ====
-   -> Updated quality of "Custom Product 1" from 19 to 11
-   -> Updated price of "Custom Product 1" from 51.9 to 51.1
+   -> Updated quality of "Custom Product 1" from 50 to 44
+   -> Updated price of "Custom Product 1" from 55.0 to 54.4
 
 Listing the products in the shelf (03-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 23 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 21 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 33 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 11 | 51.1 | 02-12-2022)
+  [4] (Custom Product 1 | 44 | 54.4 | 02-12-2022)
 
 ==== [ DAY 39 ] (04-01-2023) ====
 Listing the products in the shelf (04-01-2023)
@@ -603,7 +548,7 @@ Listing the products in the shelf (04-01-2023)
   [1] (Valid Wine | 23 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 21 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 33 | 10002.0 | 01-10-0500)
-  [4] (Custom Product 1 | 11 | 51.1 | 02-12-2022)
+  [4] (Custom Product 1 | 44 | 54.4 | 02-12-2022)
 
 ==== [ DAY 40 ] (05-01-2023) ====
    -> Updated quality of "Valid Wine" from 23 to 24
@@ -612,16 +557,15 @@ Listing the products in the shelf (04-01-2023)
 
    -> Updated quality of "Wine From Ancient Times" from 33 to 34
 
-   -> Updated quality of "Custom Product 1" from 11 to 3
-   -> Updated price of "Custom Product 1" from 51.1 to 50.3
+   -> Updated quality of "Custom Product 1" from 44 to 42
+   -> Updated price of "Custom Product 1" from 54.4 to 54.2
 
-  (!) Low quality (3) item found: Custom Product 1
-  (-) Removing item from shelf: (Custom Product 1 | 3 | 50.3 | 02-12-2022)
 Listing the products in the shelf (05-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 24 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 22 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 34 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 42 | 54.2 | 02-12-2022)
 
 ==== [ DAY 41 ] (06-01-2023) ====
 Listing the products in the shelf (06-01-2023)
@@ -629,13 +573,18 @@ Listing the products in the shelf (06-01-2023)
   [1] (Valid Wine | 24 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 22 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 34 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 42 | 54.2 | 02-12-2022)
 
 ==== [ DAY 42 ] (07-01-2023) ====
+   -> Updated quality of "Custom Product 1" from 42 to 36
+   -> Updated price of "Custom Product 1" from 54.2 to 53.6
+
 Listing the products in the shelf (07-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 24 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 22 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 34 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 36 | 53.6 | 02-12-2022)
 
 ==== [ DAY 43 ] (08-01-2023) ====
 Listing the products in the shelf (08-01-2023)
@@ -643,13 +592,18 @@ Listing the products in the shelf (08-01-2023)
   [1] (Valid Wine | 24 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 22 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 34 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 36 | 53.6 | 02-12-2022)
 
 ==== [ DAY 44 ] (09-01-2023) ====
+   -> Updated quality of "Custom Product 1" from 36 to 33
+   -> Updated price of "Custom Product 1" from 53.6 to 53.3
+
 Listing the products in the shelf (09-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 24 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 22 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 34 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 33 | 53.3 | 02-12-2022)
 
 ==== [ DAY 45 ] (10-01-2023) ====
 Listing the products in the shelf (10-01-2023)
@@ -657,13 +611,18 @@ Listing the products in the shelf (10-01-2023)
   [1] (Valid Wine | 24 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 22 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 34 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 33 | 53.3 | 02-12-2022)
 
 ==== [ DAY 46 ] (11-01-2023) ====
+   -> Updated quality of "Custom Product 1" from 33 to 37
+   -> Updated price of "Custom Product 1" from 53.3 to 53.7
+
 Listing the products in the shelf (11-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 24 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 22 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 34 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 37 | 53.7 | 02-12-2022)
 
 ==== [ DAY 47 ] (12-01-2023) ====
 Listing the products in the shelf (12-01-2023)
@@ -671,13 +630,18 @@ Listing the products in the shelf (12-01-2023)
   [1] (Valid Wine | 24 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 22 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 34 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 37 | 53.7 | 02-12-2022)
 
 ==== [ DAY 48 ] (13-01-2023) ====
+   -> Updated quality of "Custom Product 1" from 37 to 47
+   -> Updated price of "Custom Product 1" from 53.7 to 54.7
+
 Listing the products in the shelf (13-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 24 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 22 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 34 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 47 | 54.7 | 02-12-2022)
 
 ==== [ DAY 49 ] (14-01-2023) ====
 Listing the products in the shelf (14-01-2023)
@@ -685,6 +649,7 @@ Listing the products in the shelf (14-01-2023)
   [1] (Valid Wine | 24 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 22 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 34 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 47 | 54.7 | 02-12-2022)
 
 ==== [ DAY 50 ] (15-01-2023) ====
    -> Updated quality of "Valid Wine" from 24 to 25
@@ -693,11 +658,15 @@ Listing the products in the shelf (14-01-2023)
 
    -> Updated quality of "Wine From Ancient Times" from 34 to 35
 
+   -> Updated quality of "Custom Product 1" from 47 to 45
+   -> Updated price of "Custom Product 1" from 54.7 to 54.5
+
 Listing the products in the shelf (15-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 25 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 23 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 35 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 45 | 54.5 | 02-12-2022)
 
 ==== [ DAY 51 ] (16-01-2023) ====
 Listing the products in the shelf (16-01-2023)
@@ -705,13 +674,18 @@ Listing the products in the shelf (16-01-2023)
   [1] (Valid Wine | 25 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 23 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 35 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 45 | 54.5 | 02-12-2022)
 
 ==== [ DAY 52 ] (17-01-2023) ====
+   -> Updated quality of "Custom Product 1" from 45 to 49
+   -> Updated price of "Custom Product 1" from 54.5 to 54.9
+
 Listing the products in the shelf (17-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 25 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 23 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 35 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 49 | 54.9 | 02-12-2022)
 
 ==== [ DAY 53 ] (18-01-2023) ====
 Listing the products in the shelf (18-01-2023)
@@ -719,13 +693,18 @@ Listing the products in the shelf (18-01-2023)
   [1] (Valid Wine | 25 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 23 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 35 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 49 | 54.9 | 02-12-2022)
 
 ==== [ DAY 54 ] (19-01-2023) ====
+   -> Updated quality of "Custom Product 1" from 49 to 50
+   -> Updated price of "Custom Product 1" from 54.9 to 55.0
+
 Listing the products in the shelf (19-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 25 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 23 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 35 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 55 ] (20-01-2023) ====
 Listing the products in the shelf (20-01-2023)
@@ -733,13 +712,18 @@ Listing the products in the shelf (20-01-2023)
   [1] (Valid Wine | 25 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 23 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 35 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 56 ] (21-01-2023) ====
+   -> Updated quality of "Custom Product 1" from 50 to 48
+   -> Updated price of "Custom Product 1" from 55.0 to 54.8
+
 Listing the products in the shelf (21-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 25 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 23 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 35 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 48 | 54.8 | 02-12-2022)
 
 ==== [ DAY 57 ] (22-01-2023) ====
 Listing the products in the shelf (22-01-2023)
@@ -747,13 +731,18 @@ Listing the products in the shelf (22-01-2023)
   [1] (Valid Wine | 25 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 23 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 35 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 48 | 54.8 | 02-12-2022)
 
 ==== [ DAY 58 ] (23-01-2023) ====
+   -> Updated quality of "Custom Product 1" from 48 to 50
+   -> Updated price of "Custom Product 1" from 54.8 to 55.0
+
 Listing the products in the shelf (23-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 25 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 23 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 35 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 59 ] (24-01-2023) ====
 Listing the products in the shelf (24-01-2023)
@@ -761,6 +750,7 @@ Listing the products in the shelf (24-01-2023)
   [1] (Valid Wine | 25 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 23 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 35 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 60 ] (25-01-2023) ====
    -> Updated quality of "Valid Wine" from 25 to 26
@@ -774,6 +764,7 @@ Listing the products in the shelf (25-01-2023)
   [1] (Valid Wine | 26 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 24 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 36 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 61 ] (26-01-2023) ====
 Listing the products in the shelf (26-01-2023)
@@ -781,13 +772,18 @@ Listing the products in the shelf (26-01-2023)
   [1] (Valid Wine | 26 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 24 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 36 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 50 | 55.0 | 02-12-2022)
 
 ==== [ DAY 62 ] (27-01-2023) ====
+   -> Updated quality of "Custom Product 1" from 50 to 45
+   -> Updated price of "Custom Product 1" from 55.0 to 54.5
+
 Listing the products in the shelf (27-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 26 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 24 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 36 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 45 | 54.5 | 02-12-2022)
 
 ==== [ DAY 63 ] (28-01-2023) ====
 Listing the products in the shelf (28-01-2023)
@@ -795,13 +791,18 @@ Listing the products in the shelf (28-01-2023)
   [1] (Valid Wine | 26 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 24 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 36 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 45 | 54.5 | 02-12-2022)
 
 ==== [ DAY 64 ] (29-01-2023) ====
+   -> Updated quality of "Custom Product 1" from 45 to 37
+   -> Updated price of "Custom Product 1" from 54.5 to 53.7
+
 Listing the products in the shelf (29-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 26 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 24 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 36 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 37 | 53.7 | 02-12-2022)
 
 ==== [ DAY 65 ] (30-01-2023) ====
 Listing the products in the shelf (30-01-2023)
@@ -809,13 +810,18 @@ Listing the products in the shelf (30-01-2023)
   [1] (Valid Wine | 26 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 24 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 36 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 37 | 53.7 | 02-12-2022)
 
 ==== [ DAY 66 ] (31-01-2023) ====
+   -> Updated quality of "Custom Product 1" from 37 to 29
+   -> Updated price of "Custom Product 1" from 53.7 to 52.9
+
 Listing the products in the shelf (31-01-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 26 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 24 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 36 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 29 | 52.9 | 02-12-2022)
 
 ==== [ DAY 67 ] (01-02-2023) ====
 Listing the products in the shelf (01-02-2023)
@@ -823,13 +829,18 @@ Listing the products in the shelf (01-02-2023)
   [1] (Valid Wine | 26 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 24 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 36 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 29 | 52.9 | 02-12-2022)
 
 ==== [ DAY 68 ] (02-02-2023) ====
+   -> Updated quality of "Custom Product 1" from 29 to 23
+   -> Updated price of "Custom Product 1" from 52.9 to 52.3
+
 Listing the products in the shelf (02-02-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 26 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 24 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 36 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 23 | 52.3 | 02-12-2022)
 
 ==== [ DAY 69 ] (03-02-2023) ====
 Listing the products in the shelf (03-02-2023)
@@ -837,6 +848,7 @@ Listing the products in the shelf (03-02-2023)
   [1] (Valid Wine | 26 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 24 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 36 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 23 | 52.3 | 02-12-2022)
 
 ==== [ DAY 70 ] (04-02-2023) ====
    -> Updated quality of "Valid Wine" from 26 to 27
@@ -845,11 +857,15 @@ Listing the products in the shelf (03-02-2023)
 
    -> Updated quality of "Wine From Ancient Times" from 36 to 37
 
+   -> Updated quality of "Custom Product 1" from 23 to 19
+   -> Updated price of "Custom Product 1" from 52.3 to 51.9
+
 Listing the products in the shelf (04-02-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 27 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 25 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 37 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 19 | 51.9 | 02-12-2022)
 
 ==== [ DAY 71 ] (05-02-2023) ====
 Listing the products in the shelf (05-02-2023)
@@ -857,13 +873,18 @@ Listing the products in the shelf (05-02-2023)
   [1] (Valid Wine | 27 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 25 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 37 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 19 | 51.9 | 02-12-2022)
 
 ==== [ DAY 72 ] (06-02-2023) ====
+   -> Updated quality of "Custom Product 1" from 19 to 14
+   -> Updated price of "Custom Product 1" from 51.9 to 51.4
+
 Listing the products in the shelf (06-02-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 27 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 25 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 37 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 14 | 51.4 | 02-12-2022)
 
 ==== [ DAY 73 ] (07-02-2023) ====
 Listing the products in the shelf (07-02-2023)
@@ -871,13 +892,18 @@ Listing the products in the shelf (07-02-2023)
   [1] (Valid Wine | 27 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 25 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 37 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 14 | 51.4 | 02-12-2022)
 
 ==== [ DAY 74 ] (08-02-2023) ====
+   -> Updated quality of "Custom Product 1" from 14 to 17
+   -> Updated price of "Custom Product 1" from 51.4 to 51.7
+
 Listing the products in the shelf (08-02-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 27 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 25 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 37 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 17 | 51.7 | 02-12-2022)
 
 ==== [ DAY 75 ] (09-02-2023) ====
 Listing the products in the shelf (09-02-2023)
@@ -885,8 +911,14 @@ Listing the products in the shelf (09-02-2023)
   [1] (Valid Wine | 27 | 27.0 | 29-11-2022)
   [2] (Expired Wine | 25 | 25.8 | 12-10-2022)
   [3] (Wine From Ancient Times | 37 | 10002.0 | 01-10-0500)
+  [4] (Custom Product 1 | 17 | 51.7 | 02-12-2022)
 
 ==== [ DAY 76 ] (10-02-2023) ====
+   -> Updated quality of "Custom Product 1" from 17 to 9
+   -> Updated price of "Custom Product 1" from 51.7 to 50.9
+
+  (!) Low quality (9) item found: Custom Product 1
+  (-) Removing item from shelf: (Custom Product 1 | 9 | 50.9 | 02-12-2022)
 Listing the products in the shelf (10-02-2023)
   (Item Number | Description | Quality | Price | Expiry Date)
   [1] (Valid Wine | 27 | 27.0 | 29-11-2022)

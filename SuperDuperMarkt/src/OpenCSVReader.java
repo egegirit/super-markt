@@ -8,9 +8,10 @@ import java.util.Date;
 import java.util.List;
 import com.opencsv.CSVReader;
 
-
+// The class that reads the products from a csv file
 public class OpenCSVReader {
 
+    // Store the products in the csv file in an ArrayList
     public static ArrayList<Product> productsInFile = new ArrayList<>();
 
     // Read the contents of the CSV file and store the products in an ArrayList

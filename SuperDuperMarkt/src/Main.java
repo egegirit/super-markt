@@ -42,7 +42,7 @@ public class Main {
             // }
 
             currentDate = Utility.nextDay(currentDate, i+1);
-            Utility.updateShelf(shelf, currentDate);
+            shelf.updateAndList(shelf, currentDate);
             // If you want to see the output slowly
             // Thread.sleep(1000);
         }
