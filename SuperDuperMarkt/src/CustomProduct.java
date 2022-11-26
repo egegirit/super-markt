@@ -9,8 +9,8 @@ public class CustomProduct extends Product {
 
     // Random integer generator within a given interval [min, max]
     Random rand = new Random();
-    int max = 50;
-    int min = -50;
+    int max = 10;
+    int min = -10;
 
     // Constructor
     public CustomProduct(String description, int quality, double basePrice, Date expiryDate) {
@@ -19,8 +19,8 @@ public class CustomProduct extends Product {
         int randomNum = rand.nextInt((max - min) + 1) + min;
         this.setQualityChange(randomNum);
         this.setQualityChangeRate(2);
-        this.setQualityLowerLimit(-10); 
-        this.setQualityUpperLimit(Integer.MAX_VALUE);
+        this.setQualityLowerLimit(-50);
+        this.setQualityUpperLimit(50);
         this.setHasDailyPrice(true);
         this.setDoesExpire(false);
         this.setMinimumDays(0);

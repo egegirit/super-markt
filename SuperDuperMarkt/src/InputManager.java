@@ -25,6 +25,9 @@ public class InputManager {
             Wine wine1 = new Wine("Wine Valid", 15, 30.0, Utility.addDaysToCurrentDate(Main.currentDate, 30));
             Wine wine2 = new Wine("Wine Low Quality", -5, 20.0, Utility.addDaysToCurrentDate(Main.currentDate, 5));
             Wine wine3 = new Wine("Wine Expired", 3, 10.0, Utility.addDaysToCurrentDate(Main.currentDate, -2));
+            CustomProduct custom1 = new CustomProduct("Custom Expired", 3, 10.0, Utility.addDaysToCurrentDate(Main.currentDate, -2));
+            CustomProduct custom2 = new CustomProduct("Custom Low Quality", -100, 15.0, Utility.addDaysToCurrentDate(Main.currentDate, 5));
+            CustomProduct custom3 = new CustomProduct("Custom Valid", 10, 12.0, Utility.addDaysToCurrentDate(Main.currentDate, 50));
 
             // Add the products to the list
             products.add(cheese1);
@@ -33,6 +36,9 @@ public class InputManager {
             products.add(wine1);
             products.add(wine2);
             products.add(wine3);
+            products.add(custom1);
+            products.add(custom2);
+            products.add(custom3);
 
         } // Read the products from a CSV file
         else if (inputType.equals(InputType.CSV)) {
