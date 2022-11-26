@@ -82,8 +82,13 @@ public class OpenCSVReader {
                             ex.printStackTrace();
                         }
 
-                        Object o = Class.forName("" + records.get(i)[0]).getDeclaredConstructor(parameterType).newInstance(records.get(i)[indexOfDescription], quality, price, date);
-                        productsInFile.add((Product) o);
+                        try {
+                            Object o = Class.forName("" + records.get(i)[0]).getDeclaredConstructor(parameterType).newInstance(records.get(i)[indexOfDescription], quality, price, date);
+                            productsInFile.add((Product) o);
+                        } catch (ClassNotFoundException e) {
+                            System.out.println("The given product type \"" + records.get(i)[0] + "\" is not supported!");
+                            System.out.println("Skipping the undefined type...");
+                        }
                     }
                 }
             } catch (Exception ex) {

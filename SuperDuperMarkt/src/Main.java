@@ -9,7 +9,7 @@ public class Main {
     public static Date currentDate;
 
     // Driver code
-    public static void main(String[] args) throws InterruptedException, ClassNotFoundException {
+    public static void main(String[] args) {
 
         // Initialize the start day as today
         currentDate = new Date();
@@ -19,7 +19,7 @@ public class Main {
         InputType inputType = InputType.SQL;
 
         // Initialize products from the given source
-        ArrayList<Product> products = InputManager.getProductsFrom(inputType);
+        ArrayList<Product> products =  InputManager.getProductsFrom(inputType);
 
         // Show the start day on the console
         System.out.println("==== Start day (" + new SimpleDateFormat("dd-MM-yyyy").format(currentDate) + ") ====");
@@ -41,7 +41,7 @@ public class Main {
             //     shelf.addProductToShelf(cheese);
             // }
 
-            currentDate = Utility.nextDay(currentDate);
+            currentDate = Utility.nextDay(currentDate, i+1);
             Utility.updateShelf(shelf, currentDate);
             // If you want to see the output slowly
             // Thread.sleep(1000);

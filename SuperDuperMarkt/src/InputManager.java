@@ -4,7 +4,7 @@ import java.util.ArrayList;
 public class InputManager {
 
     // Initialize the products based on the desired input type
-    public static ArrayList<Product> getProductsFrom(InputType inputType) throws ClassNotFoundException {
+    public static ArrayList<Product> getProductsFrom(InputType inputType) {
 
         // Store the imported products
         ArrayList<Product> products = new ArrayList<>();
@@ -51,7 +51,11 @@ public class InputManager {
 
         } // Initialise and read the products from a newly created SQLite database file
         else if (inputType.equals(InputType.SQL)) {
-            Class.forName("org.sqlite.JDBC");
+            try {
+                Class.forName("org.sqlite.JDBC");
+            } catch (ClassNotFoundException e) {
+                System.out.println("Undefined class name!");
+            }
 
             // Create database and a products table in it
             String databaseName = "products.db";
@@ -72,6 +76,7 @@ public class InputManager {
             SQLConnection.insert(databaseName, 9, "Cheese", "Cheese Expired and Low Quality", 10, 5, Utility.addDaysToCurrentDate(Main.currentDate, -5));
             SQLConnection.insert(databaseName, 10, "CustomProduct", "Custom Valid", 10, 5, Utility.addDaysToCurrentDate(Main.currentDate, 40));
             SQLConnection.insert(databaseName, 11, "CustomProduct", "Custom Low Quality", -5, 3, Utility.addDaysToCurrentDate(Main.currentDate, 50));
+            SQLConnection.insert(databaseName, 12, "NotSupportedProduct", "Will Not Be Stored", 10, 5, Utility.addDaysToCurrentDate(Main.currentDate, 60));
 
             // Read and initialize products from the database file
             products = SQLConnection.selectAll(databaseName);

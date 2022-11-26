@@ -33,7 +33,7 @@ public class Utility {
     }
 
     // Returns the next day
-    public static Date nextDay(Date currentDate) {
+    public static Date nextDay(Date currentDate, int currentDay) {
 
         if(currentDate != null){
             SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
@@ -41,7 +41,7 @@ public class Utility {
 
             Date tomorrow = addDaysToCurrentDate(currentDate, 1);
             String nextDayString = formatter.format(tomorrow);
-            System.out.println("\n==== Skipping to the next day (" + nextDayString + ") ====");
+            System.out.println("\n==== [ DAY " + currentDay + " ] (" + nextDayString + ") ====");
 
             return tomorrow;
         }

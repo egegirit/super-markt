@@ -169,14 +169,18 @@ public class SQLConnection {
                     Date date = formatter.parse(expiryDate);
 
                     // Create the product object
-                    Object o = Class.forName(type).getDeclaredConstructor(parameterType).newInstance(description, quality, price, date);
-                    productsInSQL.add((Product) o);
-
+                    try {
+                        Object o = Class.forName(type).getDeclaredConstructor(parameterType).newInstance(description, quality, price, date);
+                        productsInSQL.add((Product) o);
+                    } catch (ClassNotFoundException e) {
+                        System.out.println("The given product type " + type + " is not supported!");
+                        System.out.println("Skipping the undefined type...");
+                    }
                 }
             }
         } catch (SQLException e) {
             System.out.println(e.getMessage());
-        } catch (ParseException | ClassNotFoundException | InvocationTargetException | InstantiationException |
+        } catch (ParseException | InvocationTargetException | InstantiationException |
                  IllegalAccessException | NoSuchMethodException e) {
             throw new RuntimeException(e);
         }
