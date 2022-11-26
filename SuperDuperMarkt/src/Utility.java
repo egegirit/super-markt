@@ -52,10 +52,4 @@ public class Utility {
         }
     }
 
-    // Update the contents of the shelf by checking whether the products should be removed
-    public static void updateShelf(Shelf shelf, Date currentDate) {
-        shelf.updateShelf(currentDate);
-        shelf.listProductsOfShelf();
-    }
-
 }
