@@ -21,12 +21,15 @@ public class Product {
     // How often the quality should be updated
     private int qualityChangeRate;
 
-    // If the products quality is below the lower limit value and the products can expire,
-    // it should be removed from the shelf
+    // The minimum quality that the product can have
     private int qualityLowerLimit;
 
     // The maximum quality value a product can have
     private int qualityUpperLimit;
+
+    // If the products quality is below the lower limit value and the products can expire,
+    // it should be removed from the shelf
+    private int qualityLowerValidLimit;
 
     // The base price of the product without the consideration of its quality
     private double basePrice;
@@ -100,7 +103,6 @@ public class Product {
 
         // Only update the quality when the quality check day has come
         if (differenceInDays % this.getQualityChangeRate() == 0) {
-
             // Store the old quality before updating to determine if the quality has changed or not
             int oldQuality = this.getQuality();
 
@@ -114,26 +116,22 @@ public class Product {
                 // If the quality change rage value is not fixed,
                 // don't use the start quality value for the calculation of the new quality
                 if (this.isVariableQuality()) {
-                    // TODO: this condition is already met?
-                    if (((int) differenceInDays % this.getQualityChangeRate()) == 0) {
-                        qualityResult = oldQuality + (this.getQualityChange());
-                    }
+                    qualityResult = oldQuality + (this.getQualityChange());
+
                 } else {
                     qualityToAdd = (int) (differenceInDays / this.getQualityChangeRate());
                     result = this.getQualityChange() * qualityToAdd;
-                    qualityResult = this.getStartQuality() + (int) (result);
+                    qualityResult = (int) (this.getStartQuality() + result);
                 }
 
-                // If the quality result is in a valid range, update the quality (result <= lower <= upper)
-                if ((qualityResult <= this.getQualityUpperLimit()) && (qualityResult >= this.getQualityLowerLimit())) {
-                    this.setQuality(qualityResult);
-                    // If result <= lower < upper, set quality to lower limit
-                } else if (qualityResult <= this.getQualityUpperLimit() && qualityResult < this.getQualityLowerLimit()) {
+                // If the quality result is in a valid range, update the quality,
+                // if not, set quality to the reached limit
+
+                if(qualityResult <= this.getQualityLowerLimit()){
                     this.setQuality(this.getQualityLowerLimit());
-                    // If  lower <= upper < result , set quality to upper limit
-                } else if (qualityResult > this.getQualityUpperLimit() && (qualityResult >= this.getQualityLowerLimit())) {
+                } else if(qualityResult >= this.getQualityUpperLimit()){
                     this.setQuality(this.getQualityUpperLimit());
-                } else {
+                } else{
                     this.setQuality(qualityResult);
                 }
 
@@ -200,7 +198,7 @@ public class Product {
                 expired = true;
             }
             // If the products has low quality
-            if (this.getQuality() < this.getQualityLowerLimit()) {
+            if (this.getQuality() < this.getQualityLowerValidLimit()) {
                 lowQuality = true;
             }
 
@@ -298,9 +296,7 @@ public class Product {
         this.qualityChangeRate = qualityChangeRate;
     }
 
-    public int getQualityLowerLimit() {
-        return qualityLowerLimit;
-    }
+    public int getQualityLowerLimit() { return qualityLowerLimit; }
 
     public void setQualityLowerLimit(int qualityLowerLimit) {
         this.qualityLowerLimit = qualityLowerLimit;
@@ -313,6 +309,10 @@ public class Product {
     public void setQualityUpperLimit(int qualityUpperLimit) {
         this.qualityUpperLimit = qualityUpperLimit;
     }
+
+    public int getQualityLowerValidLimit() { return qualityLowerValidLimit; }
+
+    public void setQualityLowerValidLimit(int qualityLowerValidLimit) { this.qualityLowerValidLimit = qualityLowerValidLimit; }
 
     public double getBasePrice() {
         return basePrice;

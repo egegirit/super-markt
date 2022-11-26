@@ -8,8 +8,9 @@ public class Cheese extends Product{
         super(description, quality, basePrice, expiryDate);
         this.setQualityChange(-1);
         this.setQualityChangeRate(1);
-        this.setQualityLowerLimit(30);
+        this.setQualityLowerLimit(Integer.MIN_VALUE);
         this.setQualityUpperLimit(Integer.MAX_VALUE);
+        this.setQualityLowerValidLimit(30);
         this.setHasDailyPrice(true);
         this.setDoesExpire(true);
         this.setMinimumDays(50);

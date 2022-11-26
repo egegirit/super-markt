@@ -19,8 +19,9 @@ public class CustomProduct extends Product {
         int randomNum = rand.nextInt((max - min) + 1) + min;
         this.setQualityChange(randomNum);
         this.setQualityChangeRate(2);
-        this.setQualityLowerLimit(-50);
+        this.setQualityLowerLimit(0);
         this.setQualityUpperLimit(50);
+        this.setQualityLowerValidLimit(10);
         this.setHasDailyPrice(true);
         this.setDoesExpire(false);
         this.setMinimumDays(0);
@@ -49,7 +50,7 @@ public class CustomProduct extends Product {
         if (oldQualityChange == this.getQualityChange()) {
             return false;
         } else {
-            System.out.println("   -> Quality change of \"" + this.getDescription() + "\" is set to " + this.getQualityChange());
+            // System.out.println("   -> Quality change of \"" + this.getDescription() + "\" is set to " + this.getQualityChange());
             return true;
         }
     }

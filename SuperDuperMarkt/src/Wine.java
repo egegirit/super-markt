@@ -10,8 +10,9 @@ public class Wine extends Product {
         super(description, quality, basePrice, expiryDate);
         this.setQualityChange(1);
         this.setQualityChangeRate(10);
-        this.setQualityLowerLimit(0);
+        this.setQualityLowerLimit(Integer.MIN_VALUE);
         this.setQualityUpperLimit(50);
+        this.setQualityLowerValidLimit(0);
         this.setHasDailyPrice(false);
         this.setDoesExpire(false);
         this.setVariableQuality(false);

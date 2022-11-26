@@ -16,7 +16,7 @@ public class Main {
 
         // Possible input options are:
         // InputType.SQL  InputType.CSV  InputType.CONSOLE
-        InputType inputType = InputType.SQL;
+        InputType inputType = InputType.CSV;
 
         // Initialize products from the given source
         ArrayList<Product> products =  InputManager.getProductsFrom(inputType);
