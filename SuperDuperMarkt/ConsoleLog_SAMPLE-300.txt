@@ -1,0 +1,3077 @@
+"C:\Program Files\Java\jdk-19\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\lib\idea_rt.jar=56659:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\egegi\Desktop\supermarkt\super-markt\SuperDuperMarkt\out\production\SuperDuperMarkt;C:\Users\egegi\Desktop\opencsv-3.8.jar;C:\Users\egegi\Desktop\sqlite-jdbc-3.7.2.jar Main
+Selected input type: SAMPLE
+
+==== Start day (26-11-2022) ====
+
+Trying to add product into the shelf: (Cheese Not In Interval | 45 | 14.5 | 11-12-2022)
+  (!) Expire date is not valid (11-12-2022) for item: Cheese Not In Interval
+    Item "Cheese Not In Interval" is not suitable to store, skipping
+
+Trying to add product into the shelf: (Cheese Bad Quality | 10 | 8.0 | 20-01-2023)
+  (!) Low quality (10) item found: Cheese Bad Quality
+    Item "Cheese Bad Quality" is not suitable to store, skipping
+
+Trying to add product into the shelf: (Cheese Valid | 40 | 9.0 | 30-01-2023)
+  (+) Added item to the shelf: (Cheese Valid | 40 | 9.0 | 30-01-2023)
+
+Trying to add product into the shelf: (Wine Valid | 15 | 31.5 | 26-12-2022)
+  (+) Added item to the shelf: (Wine Valid | 15 | 31.5 | 26-12-2022)
+
+Trying to add product into the shelf: (Wine Low Quality | -5 | 19.5 | 01-12-2022)
+  (!) Low quality (-5) item found: Wine Low Quality
+    Item "Wine Low Quality" is not suitable to store, skipping
+
+Trying to add product into the shelf: (Wine Expired | 3 | 10.3 | 24-11-2022)
+  (+) Added item to the shelf: (Wine Expired | 3 | 10.3 | 24-11-2022)
+
+Trying to add product into the shelf: (Custom Expired | 3 | 10.3 | 24-11-2022)
+  (!) Expire date is not valid (24-11-2022) for item: Custom Expired
+    Item "Custom Expired" is not suitable to store, skipping
+
+Trying to add product into the shelf: (Custom Low Quality | -100 | 5.0 | 01-12-2022)
+  (!) Low quality (-100) item found: Custom Low Quality
+    Item "Custom Low Quality" is not suitable to store, skipping
+
+Trying to add product into the shelf: (Custom Valid | 10 | 13.0 | 15-01-2023)
+  (+) Added item to the shelf: (Custom Valid | 10 | 13.0 | 15-01-2023)
+
+==== Skipping to the next day (27-11-2022) ====
+   -> Updated quality of "Cheese Valid" from 40 to 39
+   -> Updated price of "Cheese Valid" from 9.0 to 8.9
+
+   -> Quality change of "Custom Valid" is set to -7
+Listing the products in the shelf (27-11-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 39 | 8.9 | 30-01-2023)
+  [2] (Wine Valid | 15 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 3 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 10 | 13.0 | 15-01-2023)
+
+==== Skipping to the next day (28-11-2022) ====
+   -> Updated quality of "Cheese Valid" from 39 to 38
+   -> Updated price of "Cheese Valid" from 8.9 to 8.8
+
+   -> Quality change of "Custom Valid" is set to 5
+   -> Updated quality of "Custom Valid" from 10 to 15
+   -> Updated price of "Custom Valid" from 13.0 to 13.5
+
+Listing the products in the shelf (28-11-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 38 | 8.8 | 30-01-2023)
+  [2] (Wine Valid | 15 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 3 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 15 | 13.5 | 15-01-2023)
+
+==== Skipping to the next day (29-11-2022) ====
+   -> Updated quality of "Cheese Valid" from 38 to 37
+   -> Updated price of "Cheese Valid" from 8.8 to 8.7
+
+   -> Quality change of "Custom Valid" is set to -1
+Listing the products in the shelf (29-11-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 37 | 8.7 | 30-01-2023)
+  [2] (Wine Valid | 15 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 3 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 15 | 13.5 | 15-01-2023)
+
+==== Skipping to the next day (30-11-2022) ====
+   -> Updated quality of "Cheese Valid" from 37 to 36
+   -> Updated price of "Cheese Valid" from 8.7 to 8.6
+
+   -> Quality change of "Custom Valid" is set to -5
+   -> Updated quality of "Custom Valid" from 15 to 10
+   -> Updated price of "Custom Valid" from 13.5 to 13.0
+
+Listing the products in the shelf (30-11-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 36 | 8.6 | 30-01-2023)
+  [2] (Wine Valid | 15 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 3 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 10 | 13.0 | 15-01-2023)
+
+==== Skipping to the next day (01-12-2022) ====
+   -> Updated quality of "Cheese Valid" from 36 to 35
+   -> Updated price of "Cheese Valid" from 8.6 to 8.5
+
+   -> Quality change of "Custom Valid" is set to -6
+Listing the products in the shelf (01-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 35 | 8.5 | 30-01-2023)
+  [2] (Wine Valid | 15 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 3 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 10 | 13.0 | 15-01-2023)
+
+==== Skipping to the next day (02-12-2022) ====
+   -> Updated quality of "Cheese Valid" from 35 to 34
+   -> Updated price of "Cheese Valid" from 8.5 to 8.4
+
+   -> Quality change of "Custom Valid" is set to -10
+   -> Updated quality of "Custom Valid" from 10 to 0
+   -> Updated price of "Custom Valid" from 13.0 to 12.0
+
+Listing the products in the shelf (02-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 34 | 8.4 | 30-01-2023)
+  [2] (Wine Valid | 15 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 3 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 0 | 12.0 | 15-01-2023)
+
+==== Skipping to the next day (03-12-2022) ====
+   -> Updated quality of "Cheese Valid" from 34 to 33
+   -> Updated price of "Cheese Valid" from 8.4 to 8.3
+
+   -> Quality change of "Custom Valid" is set to 3
+Listing the products in the shelf (03-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 33 | 8.3 | 30-01-2023)
+  [2] (Wine Valid | 15 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 3 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 0 | 12.0 | 15-01-2023)
+
+==== Skipping to the next day (04-12-2022) ====
+   -> Updated quality of "Cheese Valid" from 33 to 32
+   -> Updated price of "Cheese Valid" from 8.3 to 8.2
+
+   -> Quality change of "Custom Valid" is set to 4
+   -> Updated quality of "Custom Valid" from 0 to 4
+   -> Updated price of "Custom Valid" from 12.0 to 12.4
+
+Listing the products in the shelf (04-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 32 | 8.2 | 30-01-2023)
+  [2] (Wine Valid | 15 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 3 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 4 | 12.4 | 15-01-2023)
+
+==== Skipping to the next day (05-12-2022) ====
+   -> Updated quality of "Cheese Valid" from 32 to 31
+   -> Updated price of "Cheese Valid" from 8.2 to 8.1
+
+   -> Quality change of "Custom Valid" is set to -4
+Listing the products in the shelf (05-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 31 | 8.1 | 30-01-2023)
+  [2] (Wine Valid | 15 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 3 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 4 | 12.4 | 15-01-2023)
+
+==== Skipping to the next day (06-12-2022) ====
+   -> Updated quality of "Cheese Valid" from 31 to 30
+   -> Updated price of "Cheese Valid" from 8.1 to 8.0
+
+   -> Updated quality of "Wine Valid" from 15 to 16
+
+   -> Updated quality of "Wine Expired" from 3 to 4
+
+   -> Quality change of "Custom Valid" is set to -6
+   -> Updated quality of "Custom Valid" from 4 to -2
+   -> Updated price of "Custom Valid" from 12.4 to 11.8
+
+Listing the products in the shelf (06-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 16 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 4 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -2 | 11.8 | 15-01-2023)
+
+==== Skipping to the next day (07-12-2022) ====
+   -> Quality change of "Custom Valid" is set to -3
+Listing the products in the shelf (07-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 16 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 4 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -2 | 11.8 | 15-01-2023)
+
+==== Skipping to the next day (08-12-2022) ====
+   -> Updated quality of "Custom Valid" from -2 to -5
+   -> Updated price of "Custom Valid" from 11.8 to 11.5
+
+Listing the products in the shelf (08-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 16 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 4 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -5 | 11.5 | 15-01-2023)
+
+==== Skipping to the next day (09-12-2022) ====
+   -> Quality change of "Custom Valid" is set to 5
+Listing the products in the shelf (09-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 16 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 4 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -5 | 11.5 | 15-01-2023)
+
+==== Skipping to the next day (10-12-2022) ====
+   -> Quality change of "Custom Valid" is set to -10
+   -> Updated quality of "Custom Valid" from -5 to -15
+   -> Updated price of "Custom Valid" from 11.5 to 10.5
+
+Listing the products in the shelf (10-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 16 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 4 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -15 | 10.5 | 15-01-2023)
+
+==== Skipping to the next day (11-12-2022) ====
+   -> Quality change of "Custom Valid" is set to 0
+Listing the products in the shelf (11-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 16 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 4 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -15 | 10.5 | 15-01-2023)
+
+==== Skipping to the next day (12-12-2022) ====
+   -> Quality change of "Custom Valid" is set to -10
+   -> Updated quality of "Custom Valid" from -15 to -25
+   -> Updated price of "Custom Valid" from 10.5 to 9.5
+
+Listing the products in the shelf (12-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 16 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 4 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -25 | 9.5 | 15-01-2023)
+
+==== Skipping to the next day (13-12-2022) ====
+   -> Quality change of "Custom Valid" is set to 5
+Listing the products in the shelf (13-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 16 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 4 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -25 | 9.5 | 15-01-2023)
+
+==== Skipping to the next day (14-12-2022) ====
+   -> Quality change of "Custom Valid" is set to -2
+   -> Updated quality of "Custom Valid" from -25 to -27
+   -> Updated price of "Custom Valid" from 9.5 to 9.3
+
+Listing the products in the shelf (14-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 16 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 4 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -27 | 9.3 | 15-01-2023)
+
+==== Skipping to the next day (15-12-2022) ====
+Listing the products in the shelf (15-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 16 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 4 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -27 | 9.3 | 15-01-2023)
+
+==== Skipping to the next day (16-12-2022) ====
+   -> Updated quality of "Wine Valid" from 16 to 17
+
+   -> Updated quality of "Wine Expired" from 4 to 5
+
+   -> Quality change of "Custom Valid" is set to -8
+   -> Updated quality of "Custom Valid" from -27 to -35
+   -> Updated price of "Custom Valid" from 9.3 to 8.5
+
+Listing the products in the shelf (16-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 17 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 5 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -35 | 8.5 | 15-01-2023)
+
+==== Skipping to the next day (17-12-2022) ====
+   -> Quality change of "Custom Valid" is set to 4
+Listing the products in the shelf (17-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 17 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 5 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -35 | 8.5 | 15-01-2023)
+
+==== Skipping to the next day (18-12-2022) ====
+   -> Quality change of "Custom Valid" is set to 3
+   -> Updated quality of "Custom Valid" from -35 to -32
+   -> Updated price of "Custom Valid" from 8.5 to 8.8
+
+Listing the products in the shelf (18-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 17 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 5 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -32 | 8.8 | 15-01-2023)
+
+==== Skipping to the next day (19-12-2022) ====
+   -> Quality change of "Custom Valid" is set to 9
+Listing the products in the shelf (19-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 17 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 5 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -32 | 8.8 | 15-01-2023)
+
+==== Skipping to the next day (20-12-2022) ====
+   -> Quality change of "Custom Valid" is set to 7
+   -> Updated quality of "Custom Valid" from -32 to -25
+   -> Updated price of "Custom Valid" from 8.8 to 9.5
+
+Listing the products in the shelf (20-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 17 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 5 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -25 | 9.5 | 15-01-2023)
+
+==== Skipping to the next day (21-12-2022) ====
+Listing the products in the shelf (21-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 17 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 5 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -25 | 9.5 | 15-01-2023)
+
+==== Skipping to the next day (22-12-2022) ====
+   -> Quality change of "Custom Valid" is set to 8
+   -> Updated quality of "Custom Valid" from -25 to -17
+   -> Updated price of "Custom Valid" from 9.5 to 10.3
+
+Listing the products in the shelf (22-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 17 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 5 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -17 | 10.3 | 15-01-2023)
+
+==== Skipping to the next day (23-12-2022) ====
+   -> Quality change of "Custom Valid" is set to 0
+Listing the products in the shelf (23-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 17 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 5 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -17 | 10.3 | 15-01-2023)
+
+==== Skipping to the next day (24-12-2022) ====
+   -> Quality change of "Custom Valid" is set to -8
+   -> Updated quality of "Custom Valid" from -17 to -25
+   -> Updated price of "Custom Valid" from 10.3 to 9.5
+
+Listing the products in the shelf (24-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 17 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 5 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -25 | 9.5 | 15-01-2023)
+
+==== Skipping to the next day (25-12-2022) ====
+   -> Quality change of "Custom Valid" is set to 7
+Listing the products in the shelf (25-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 17 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 5 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -25 | 9.5 | 15-01-2023)
+
+==== Skipping to the next day (26-12-2022) ====
+   -> Updated quality of "Wine Valid" from 17 to 18
+
+   -> Updated quality of "Wine Expired" from 5 to 6
+
+   -> Quality change of "Custom Valid" is set to 10
+   -> Updated quality of "Custom Valid" from -25 to -15
+   -> Updated price of "Custom Valid" from 9.5 to 10.5
+
+Listing the products in the shelf (26-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 18 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 6 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -15 | 10.5 | 15-01-2023)
+
+==== Skipping to the next day (27-12-2022) ====
+   -> Quality change of "Custom Valid" is set to -10
+Listing the products in the shelf (27-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 18 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 6 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -15 | 10.5 | 15-01-2023)
+
+==== Skipping to the next day (28-12-2022) ====
+   -> Quality change of "Custom Valid" is set to -3
+   -> Updated quality of "Custom Valid" from -15 to -18
+   -> Updated price of "Custom Valid" from 10.5 to 10.2
+
+Listing the products in the shelf (28-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 18 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 6 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -18 | 10.2 | 15-01-2023)
+
+==== Skipping to the next day (29-12-2022) ====
+   -> Quality change of "Custom Valid" is set to 5
+Listing the products in the shelf (29-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 18 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 6 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -18 | 10.2 | 15-01-2023)
+
+==== Skipping to the next day (30-12-2022) ====
+   -> Quality change of "Custom Valid" is set to 9
+   -> Updated quality of "Custom Valid" from -18 to -9
+   -> Updated price of "Custom Valid" from 10.2 to 11.1
+
+Listing the products in the shelf (30-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 18 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 6 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -9 | 11.1 | 15-01-2023)
+
+==== Skipping to the next day (31-12-2022) ====
+   -> Quality change of "Custom Valid" is set to -9
+Listing the products in the shelf (31-12-2022)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 18 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 6 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -9 | 11.1 | 15-01-2023)
+
+==== Skipping to the next day (01-01-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+   -> Updated quality of "Custom Valid" from -9 to -12
+   -> Updated price of "Custom Valid" from 11.1 to 10.8
+
+Listing the products in the shelf (01-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 18 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 6 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -12 | 10.8 | 15-01-2023)
+
+==== Skipping to the next day (02-01-2023) ====
+   -> Quality change of "Custom Valid" is set to -2
+Listing the products in the shelf (02-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 18 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 6 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -12 | 10.8 | 15-01-2023)
+
+==== Skipping to the next day (03-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 5
+   -> Updated quality of "Custom Valid" from -12 to -7
+   -> Updated price of "Custom Valid" from 10.8 to 11.3
+
+Listing the products in the shelf (03-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 18 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 6 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (04-01-2023) ====
+Listing the products in the shelf (04-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 18 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 6 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (05-01-2023) ====
+   -> Updated quality of "Wine Valid" from 18 to 19
+
+   -> Updated quality of "Wine Expired" from 6 to 7
+
+   -> Quality change of "Custom Valid" is set to -8
+   -> Updated quality of "Custom Valid" from -7 to -15
+   -> Updated price of "Custom Valid" from 11.3 to 10.5
+
+Listing the products in the shelf (05-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 19 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 7 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -15 | 10.5 | 15-01-2023)
+
+==== Skipping to the next day (06-01-2023) ====
+   -> Quality change of "Custom Valid" is set to -5
+Listing the products in the shelf (06-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 19 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 7 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -15 | 10.5 | 15-01-2023)
+
+==== Skipping to the next day (07-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 2
+   -> Updated quality of "Custom Valid" from -15 to -13
+   -> Updated price of "Custom Valid" from 10.5 to 10.7
+
+Listing the products in the shelf (07-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 19 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 7 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -13 | 10.7 | 15-01-2023)
+
+==== Skipping to the next day (08-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 7
+Listing the products in the shelf (08-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 19 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 7 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -13 | 10.7 | 15-01-2023)
+
+==== Skipping to the next day (09-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+   -> Updated quality of "Custom Valid" from -13 to -5
+   -> Updated price of "Custom Valid" from 10.7 to 11.5
+
+Listing the products in the shelf (09-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 19 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 7 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -5 | 11.5 | 15-01-2023)
+
+==== Skipping to the next day (10-01-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+Listing the products in the shelf (10-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 19 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 7 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -5 | 11.5 | 15-01-2023)
+
+==== Skipping to the next day (11-01-2023) ====
+   -> Updated quality of "Custom Valid" from -5 to -8
+   -> Updated price of "Custom Valid" from 11.5 to 11.2
+
+Listing the products in the shelf (11-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 19 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 7 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -8 | 11.2 | 15-01-2023)
+
+==== Skipping to the next day (12-01-2023) ====
+   -> Quality change of "Custom Valid" is set to -1
+Listing the products in the shelf (12-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 19 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 7 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -8 | 11.2 | 15-01-2023)
+
+==== Skipping to the next day (13-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+   -> Updated quality of "Custom Valid" from -8 to -2
+   -> Updated price of "Custom Valid" from 11.2 to 11.8
+
+Listing the products in the shelf (13-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 19 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 7 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -2 | 11.8 | 15-01-2023)
+
+==== Skipping to the next day (14-01-2023) ====
+   -> Quality change of "Custom Valid" is set to -1
+Listing the products in the shelf (14-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 19 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 7 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -2 | 11.8 | 15-01-2023)
+
+==== Skipping to the next day (15-01-2023) ====
+   -> Updated quality of "Wine Valid" from 19 to 20
+
+   -> Updated quality of "Wine Expired" from 7 to 8
+
+   -> Quality change of "Custom Valid" is set to 8
+   -> Updated quality of "Custom Valid" from -2 to 6
+   -> Updated price of "Custom Valid" from 11.8 to 12.6
+
+Listing the products in the shelf (15-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 20 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 8 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 6 | 12.6 | 15-01-2023)
+
+==== Skipping to the next day (16-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+Listing the products in the shelf (16-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 20 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 8 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 6 | 12.6 | 15-01-2023)
+
+==== Skipping to the next day (17-01-2023) ====
+   -> Quality change of "Custom Valid" is set to -7
+   -> Updated quality of "Custom Valid" from 6 to -1
+   -> Updated price of "Custom Valid" from 12.6 to 11.9
+
+Listing the products in the shelf (17-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 20 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 8 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -1 | 11.9 | 15-01-2023)
+
+==== Skipping to the next day (18-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 3
+Listing the products in the shelf (18-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 20 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 8 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | -1 | 11.9 | 15-01-2023)
+
+==== Skipping to the next day (19-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+   -> Updated quality of "Custom Valid" from -1 to 5
+   -> Updated price of "Custom Valid" from 11.9 to 12.5
+
+Listing the products in the shelf (19-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 20 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 8 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 5 | 12.5 | 15-01-2023)
+
+==== Skipping to the next day (20-01-2023) ====
+   -> Quality change of "Custom Valid" is set to -10
+Listing the products in the shelf (20-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 20 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 8 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 5 | 12.5 | 15-01-2023)
+
+==== Skipping to the next day (21-01-2023) ====
+   -> Quality change of "Custom Valid" is set to -5
+   -> Updated quality of "Custom Valid" from 5 to 0
+   -> Updated price of "Custom Valid" from 12.5 to 12.0
+
+Listing the products in the shelf (21-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 20 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 8 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 0 | 12.0 | 15-01-2023)
+
+==== Skipping to the next day (22-01-2023) ====
+   -> Quality change of "Custom Valid" is set to -2
+Listing the products in the shelf (22-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 20 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 8 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 0 | 12.0 | 15-01-2023)
+
+==== Skipping to the next day (23-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 9
+   -> Updated quality of "Custom Valid" from 0 to 9
+   -> Updated price of "Custom Valid" from 12.0 to 12.9
+
+Listing the products in the shelf (23-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 20 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 8 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 9 | 12.9 | 15-01-2023)
+
+==== Skipping to the next day (24-01-2023) ====
+   -> Quality change of "Custom Valid" is set to -9
+Listing the products in the shelf (24-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 20 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 8 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 9 | 12.9 | 15-01-2023)
+
+==== Skipping to the next day (25-01-2023) ====
+   -> Updated quality of "Wine Valid" from 20 to 21
+
+   -> Updated quality of "Wine Expired" from 8 to 9
+
+   -> Quality change of "Custom Valid" is set to 3
+   -> Updated quality of "Custom Valid" from 9 to 12
+   -> Updated price of "Custom Valid" from 12.9 to 13.2
+
+Listing the products in the shelf (25-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 21 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 9 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 12 | 13.2 | 15-01-2023)
+
+==== Skipping to the next day (26-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+Listing the products in the shelf (26-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 21 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 9 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 12 | 13.2 | 15-01-2023)
+
+==== Skipping to the next day (27-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 7
+   -> Updated quality of "Custom Valid" from 12 to 19
+   -> Updated price of "Custom Valid" from 13.2 to 13.9
+
+Listing the products in the shelf (27-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 21 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 9 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 19 | 13.9 | 15-01-2023)
+
+==== Skipping to the next day (28-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+Listing the products in the shelf (28-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 21 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 9 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 19 | 13.9 | 15-01-2023)
+
+==== Skipping to the next day (29-01-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+   -> Updated quality of "Custom Valid" from 19 to 23
+   -> Updated price of "Custom Valid" from 13.9 to 14.3
+
+Listing the products in the shelf (29-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Cheese Valid | 30 | 8.0 | 30-01-2023)
+  [2] (Wine Valid | 21 | 31.5 | 26-12-2022)
+  [3] (Wine Expired | 9 | 10.3 | 24-11-2022)
+  [4] (Custom Valid | 23 | 14.3 | 15-01-2023)
+
+==== Skipping to the next day (30-01-2023) ====
+   -> Quality change of "Custom Valid" is set to -5
+  (!) Expired (30-01-2023) item found: Cheese Valid
+  (-) Removing item from shelf: (Cheese Valid | 30 | 8.0 | 30-01-2023)
+Listing the products in the shelf (30-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 21 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 9 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 23 | 14.3 | 15-01-2023)
+
+==== Skipping to the next day (31-01-2023) ====
+   -> Updated quality of "Custom Valid" from 23 to 18
+   -> Updated price of "Custom Valid" from 14.3 to 13.8
+
+Listing the products in the shelf (31-01-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 21 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 9 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 18 | 13.8 | 15-01-2023)
+
+==== Skipping to the next day (01-02-2023) ====
+   -> Quality change of "Custom Valid" is set to -2
+Listing the products in the shelf (01-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 21 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 9 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 18 | 13.8 | 15-01-2023)
+
+==== Skipping to the next day (02-02-2023) ====
+   -> Quality change of "Custom Valid" is set to -7
+   -> Updated quality of "Custom Valid" from 18 to 11
+   -> Updated price of "Custom Valid" from 13.8 to 13.1
+
+Listing the products in the shelf (02-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 21 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 9 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 11 | 13.1 | 15-01-2023)
+
+==== Skipping to the next day (03-02-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+Listing the products in the shelf (03-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 21 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 9 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 11 | 13.1 | 15-01-2023)
+
+==== Skipping to the next day (04-02-2023) ====
+   -> Updated quality of "Wine Valid" from 21 to 22
+
+   -> Updated quality of "Wine Expired" from 9 to 10
+
+   -> Quality change of "Custom Valid" is set to -4
+   -> Updated quality of "Custom Valid" from 11 to 7
+   -> Updated price of "Custom Valid" from 13.1 to 12.7
+
+Listing the products in the shelf (04-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 22 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 10 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 7 | 12.7 | 15-01-2023)
+
+==== Skipping to the next day (05-02-2023) ====
+   -> Quality change of "Custom Valid" is set to 7
+Listing the products in the shelf (05-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 22 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 10 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 7 | 12.7 | 15-01-2023)
+
+==== Skipping to the next day (06-02-2023) ====
+   -> Quality change of "Custom Valid" is set to -2
+   -> Updated quality of "Custom Valid" from 7 to 5
+   -> Updated price of "Custom Valid" from 12.7 to 12.5
+
+Listing the products in the shelf (06-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 22 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 10 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 5 | 12.5 | 15-01-2023)
+
+==== Skipping to the next day (07-02-2023) ====
+   -> Quality change of "Custom Valid" is set to 0
+Listing the products in the shelf (07-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 22 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 10 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 5 | 12.5 | 15-01-2023)
+
+==== Skipping to the next day (08-02-2023) ====
+   -> Quality change of "Custom Valid" is set to -2
+   -> Updated quality of "Custom Valid" from 5 to 3
+   -> Updated price of "Custom Valid" from 12.5 to 12.3
+
+Listing the products in the shelf (08-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 22 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 10 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 3 | 12.3 | 15-01-2023)
+
+==== Skipping to the next day (09-02-2023) ====
+   -> Quality change of "Custom Valid" is set to -1
+Listing the products in the shelf (09-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 22 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 10 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 3 | 12.3 | 15-01-2023)
+
+==== Skipping to the next day (10-02-2023) ====
+   -> Quality change of "Custom Valid" is set to -10
+   -> Updated quality of "Custom Valid" from 3 to -7
+   -> Updated price of "Custom Valid" from 12.3 to 11.3
+
+Listing the products in the shelf (10-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 22 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 10 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (11-02-2023) ====
+   -> Quality change of "Custom Valid" is set to -7
+Listing the products in the shelf (11-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 22 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 10 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (12-02-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+   -> Updated quality of "Custom Valid" from -7 to 1
+   -> Updated price of "Custom Valid" from 11.3 to 12.1
+
+Listing the products in the shelf (12-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 22 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 10 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (13-02-2023) ====
+   -> Quality change of "Custom Valid" is set to 0
+Listing the products in the shelf (13-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 22 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 10 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (14-02-2023) ====
+   -> Updated quality of "Wine Valid" from 22 to 23
+
+   -> Updated quality of "Wine Expired" from 10 to 11
+
+   -> Quality change of "Custom Valid" is set to -10
+   -> Updated quality of "Custom Valid" from 1 to -9
+   -> Updated price of "Custom Valid" from 12.1 to 11.1
+
+Listing the products in the shelf (14-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 23 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 11 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -9 | 11.1 | 15-01-2023)
+
+==== Skipping to the next day (15-02-2023) ====
+   -> Quality change of "Custom Valid" is set to 0
+Listing the products in the shelf (15-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 23 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 11 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -9 | 11.1 | 15-01-2023)
+
+==== Skipping to the next day (16-02-2023) ====
+   -> Quality change of "Custom Valid" is set to -5
+   -> Updated quality of "Custom Valid" from -9 to -14
+   -> Updated price of "Custom Valid" from 11.1 to 10.6
+
+Listing the products in the shelf (16-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 23 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 11 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -14 | 10.6 | 15-01-2023)
+
+==== Skipping to the next day (17-02-2023) ====
+   -> Quality change of "Custom Valid" is set to -7
+Listing the products in the shelf (17-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 23 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 11 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -14 | 10.6 | 15-01-2023)
+
+==== Skipping to the next day (18-02-2023) ====
+   -> Quality change of "Custom Valid" is set to -1
+   -> Updated quality of "Custom Valid" from -14 to -15
+   -> Updated price of "Custom Valid" from 10.6 to 10.5
+
+Listing the products in the shelf (18-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 23 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 11 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -15 | 10.5 | 15-01-2023)
+
+==== Skipping to the next day (19-02-2023) ====
+Listing the products in the shelf (19-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 23 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 11 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -15 | 10.5 | 15-01-2023)
+
+==== Skipping to the next day (20-02-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+   -> Updated quality of "Custom Valid" from -15 to -7
+   -> Updated price of "Custom Valid" from 10.5 to 11.3
+
+Listing the products in the shelf (20-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 23 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 11 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (21-02-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+Listing the products in the shelf (21-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 23 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 11 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (22-02-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+   -> Updated quality of "Custom Valid" from -7 to 1
+   -> Updated price of "Custom Valid" from 11.3 to 12.1
+
+Listing the products in the shelf (22-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 23 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 11 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (23-02-2023) ====
+   -> Quality change of "Custom Valid" is set to -5
+Listing the products in the shelf (23-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 23 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 11 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (24-02-2023) ====
+   -> Updated quality of "Wine Valid" from 23 to 24
+
+   -> Updated quality of "Wine Expired" from 11 to 12
+
+   -> Quality change of "Custom Valid" is set to 10
+   -> Updated quality of "Custom Valid" from 1 to 11
+   -> Updated price of "Custom Valid" from 12.1 to 13.1
+
+Listing the products in the shelf (24-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 24 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 12 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 11 | 13.1 | 15-01-2023)
+
+==== Skipping to the next day (25-02-2023) ====
+   -> Quality change of "Custom Valid" is set to 9
+Listing the products in the shelf (25-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 24 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 12 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 11 | 13.1 | 15-01-2023)
+
+==== Skipping to the next day (26-02-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+   -> Updated quality of "Custom Valid" from 11 to 8
+   -> Updated price of "Custom Valid" from 13.1 to 12.8
+
+Listing the products in the shelf (26-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 24 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 12 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 8 | 12.8 | 15-01-2023)
+
+==== Skipping to the next day (27-02-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+Listing the products in the shelf (27-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 24 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 12 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 8 | 12.8 | 15-01-2023)
+
+==== Skipping to the next day (28-02-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+   -> Updated quality of "Custom Valid" from 8 to 9
+   -> Updated price of "Custom Valid" from 12.8 to 12.9
+
+Listing the products in the shelf (28-02-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 24 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 12 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 9 | 12.9 | 15-01-2023)
+
+==== Skipping to the next day (01-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+Listing the products in the shelf (01-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 24 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 12 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 9 | 12.9 | 15-01-2023)
+
+==== Skipping to the next day (02-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -8
+   -> Updated quality of "Custom Valid" from 9 to 1
+   -> Updated price of "Custom Valid" from 12.9 to 12.1
+
+Listing the products in the shelf (02-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 24 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 12 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (03-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -6
+Listing the products in the shelf (03-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 24 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 12 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (04-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 2
+   -> Updated quality of "Custom Valid" from 1 to 3
+   -> Updated price of "Custom Valid" from 12.1 to 12.3
+
+Listing the products in the shelf (04-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 24 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 12 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 3 | 12.3 | 15-01-2023)
+
+==== Skipping to the next day (05-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -5
+Listing the products in the shelf (05-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 24 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 12 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 3 | 12.3 | 15-01-2023)
+
+==== Skipping to the next day (06-03-2023) ====
+   -> Updated quality of "Wine Valid" from 24 to 25
+
+   -> Updated quality of "Wine Expired" from 12 to 13
+
+   -> Quality change of "Custom Valid" is set to -10
+   -> Updated quality of "Custom Valid" from 3 to -7
+   -> Updated price of "Custom Valid" from 12.3 to 11.3
+
+Listing the products in the shelf (06-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 25 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 13 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (07-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -7
+Listing the products in the shelf (07-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 25 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 13 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (08-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+   -> Updated quality of "Custom Valid" from -7 to -6
+   -> Updated price of "Custom Valid" from 11.3 to 11.4
+
+Listing the products in the shelf (08-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 25 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 13 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -6 | 11.4 | 15-01-2023)
+
+==== Skipping to the next day (09-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+Listing the products in the shelf (09-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 25 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 13 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -6 | 11.4 | 15-01-2023)
+
+==== Skipping to the next day (10-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 3
+   -> Updated quality of "Custom Valid" from -6 to -3
+   -> Updated price of "Custom Valid" from 11.4 to 11.7
+
+Listing the products in the shelf (10-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 25 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 13 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -3 | 11.7 | 15-01-2023)
+
+==== Skipping to the next day (11-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 0
+Listing the products in the shelf (11-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 25 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 13 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -3 | 11.7 | 15-01-2023)
+
+==== Skipping to the next day (12-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+   -> Updated quality of "Custom Valid" from -3 to 5
+   -> Updated price of "Custom Valid" from 11.7 to 12.5
+
+Listing the products in the shelf (12-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 25 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 13 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 5 | 12.5 | 15-01-2023)
+
+==== Skipping to the next day (13-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -9
+Listing the products in the shelf (13-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 25 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 13 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 5 | 12.5 | 15-01-2023)
+
+==== Skipping to the next day (14-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+   -> Updated quality of "Custom Valid" from 5 to 2
+   -> Updated price of "Custom Valid" from 12.5 to 12.2
+
+Listing the products in the shelf (14-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 25 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 13 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 2 | 12.2 | 15-01-2023)
+
+==== Skipping to the next day (15-03-2023) ====
+Listing the products in the shelf (15-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 25 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 13 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 2 | 12.2 | 15-01-2023)
+
+==== Skipping to the next day (16-03-2023) ====
+   -> Updated quality of "Wine Valid" from 25 to 26
+
+   -> Updated quality of "Wine Expired" from 13 to 14
+
+   -> Quality change of "Custom Valid" is set to 6
+   -> Updated quality of "Custom Valid" from 2 to 8
+   -> Updated price of "Custom Valid" from 12.2 to 12.8
+
+Listing the products in the shelf (16-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 26 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 14 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 8 | 12.8 | 15-01-2023)
+
+==== Skipping to the next day (17-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 0
+Listing the products in the shelf (17-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 26 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 14 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 8 | 12.8 | 15-01-2023)
+
+==== Skipping to the next day (18-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -6
+   -> Updated quality of "Custom Valid" from 8 to 2
+   -> Updated price of "Custom Valid" from 12.8 to 12.2
+
+Listing the products in the shelf (18-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 26 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 14 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 2 | 12.2 | 15-01-2023)
+
+==== Skipping to the next day (19-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 7
+Listing the products in the shelf (19-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 26 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 14 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 2 | 12.2 | 15-01-2023)
+
+==== Skipping to the next day (20-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -10
+   -> Updated quality of "Custom Valid" from 2 to -8
+   -> Updated price of "Custom Valid" from 12.2 to 11.2
+
+Listing the products in the shelf (20-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 26 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 14 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -8 | 11.2 | 15-01-2023)
+
+==== Skipping to the next day (21-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 7
+Listing the products in the shelf (21-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 26 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 14 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -8 | 11.2 | 15-01-2023)
+
+==== Skipping to the next day (22-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 2
+   -> Updated quality of "Custom Valid" from -8 to -6
+   -> Updated price of "Custom Valid" from 11.2 to 11.4
+
+Listing the products in the shelf (22-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 26 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 14 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -6 | 11.4 | 15-01-2023)
+
+==== Skipping to the next day (23-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+Listing the products in the shelf (23-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 26 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 14 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -6 | 11.4 | 15-01-2023)
+
+==== Skipping to the next day (24-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 7
+   -> Updated quality of "Custom Valid" from -6 to 1
+   -> Updated price of "Custom Valid" from 11.4 to 12.1
+
+Listing the products in the shelf (24-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 26 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 14 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (25-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+Listing the products in the shelf (25-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 26 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 14 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (26-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -10
+Listing the products in the shelf (26-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 26 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 14 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (27-03-2023) ====
+   -> Updated quality of "Wine Valid" from 26 to 27
+
+   -> Updated quality of "Wine Expired" from 14 to 15
+
+   -> Quality change of "Custom Valid" is set to -2
+   -> Updated quality of "Custom Valid" from 1 to -1
+   -> Updated price of "Custom Valid" from 12.1 to 11.9
+
+Listing the products in the shelf (27-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 27 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 15 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -1 | 11.9 | 15-01-2023)
+
+==== Skipping to the next day (28-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+Listing the products in the shelf (28-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 27 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 15 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -1 | 11.9 | 15-01-2023)
+
+==== Skipping to the next day (29-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 9
+   -> Updated quality of "Custom Valid" from -1 to 8
+   -> Updated price of "Custom Valid" from 11.9 to 12.8
+
+Listing the products in the shelf (29-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 27 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 15 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 8 | 12.8 | 15-01-2023)
+
+==== Skipping to the next day (30-03-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+Listing the products in the shelf (30-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 27 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 15 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 8 | 12.8 | 15-01-2023)
+
+==== Skipping to the next day (31-03-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+   -> Updated quality of "Custom Valid" from 8 to 9
+   -> Updated price of "Custom Valid" from 12.8 to 12.9
+
+Listing the products in the shelf (31-03-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 27 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 15 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 9 | 12.9 | 15-01-2023)
+
+==== Skipping to the next day (01-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 3
+Listing the products in the shelf (01-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 27 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 15 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 9 | 12.9 | 15-01-2023)
+
+==== Skipping to the next day (02-04-2023) ====
+   -> Quality change of "Custom Valid" is set to -8
+   -> Updated quality of "Custom Valid" from 9 to 1
+   -> Updated price of "Custom Valid" from 12.9 to 12.1
+
+Listing the products in the shelf (02-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 27 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 15 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (03-04-2023) ====
+   -> Quality change of "Custom Valid" is set to -9
+Listing the products in the shelf (03-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 27 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 15 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (04-04-2023) ====
+   -> Quality change of "Custom Valid" is set to -2
+   -> Updated quality of "Custom Valid" from 1 to -1
+   -> Updated price of "Custom Valid" from 12.1 to 11.9
+
+Listing the products in the shelf (04-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 27 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 15 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -1 | 11.9 | 15-01-2023)
+
+==== Skipping to the next day (05-04-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+Listing the products in the shelf (05-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 27 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 15 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -1 | 11.9 | 15-01-2023)
+
+==== Skipping to the next day (06-04-2023) ====
+   -> Updated quality of "Wine Valid" from 27 to 28
+
+   -> Updated quality of "Wine Expired" from 15 to 16
+
+   -> Quality change of "Custom Valid" is set to 5
+   -> Updated quality of "Custom Valid" from -1 to 4
+   -> Updated price of "Custom Valid" from 11.9 to 12.4
+
+Listing the products in the shelf (06-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 28 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 16 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 4 | 12.4 | 15-01-2023)
+
+==== Skipping to the next day (07-04-2023) ====
+Listing the products in the shelf (07-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 28 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 16 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 4 | 12.4 | 15-01-2023)
+
+==== Skipping to the next day (08-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+   -> Updated quality of "Custom Valid" from 4 to 10
+   -> Updated price of "Custom Valid" from 12.4 to 13.0
+
+Listing the products in the shelf (08-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 28 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 16 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 10 | 13.0 | 15-01-2023)
+
+==== Skipping to the next day (09-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+Listing the products in the shelf (09-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 28 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 16 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 10 | 13.0 | 15-01-2023)
+
+==== Skipping to the next day (10-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 2
+   -> Updated quality of "Custom Valid" from 10 to 12
+   -> Updated price of "Custom Valid" from 13.0 to 13.2
+
+Listing the products in the shelf (10-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 28 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 16 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 12 | 13.2 | 15-01-2023)
+
+==== Skipping to the next day (11-04-2023) ====
+   -> Quality change of "Custom Valid" is set to -9
+Listing the products in the shelf (11-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 28 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 16 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 12 | 13.2 | 15-01-2023)
+
+==== Skipping to the next day (12-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 2
+   -> Updated quality of "Custom Valid" from 12 to 14
+   -> Updated price of "Custom Valid" from 13.2 to 13.4
+
+Listing the products in the shelf (12-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 28 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 16 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 14 | 13.4 | 15-01-2023)
+
+==== Skipping to the next day (13-04-2023) ====
+   -> Quality change of "Custom Valid" is set to -1
+Listing the products in the shelf (13-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 28 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 16 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 14 | 13.4 | 15-01-2023)
+
+==== Skipping to the next day (14-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 3
+   -> Updated quality of "Custom Valid" from 14 to 17
+   -> Updated price of "Custom Valid" from 13.4 to 13.7
+
+Listing the products in the shelf (14-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 28 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 16 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 17 | 13.7 | 15-01-2023)
+
+==== Skipping to the next day (15-04-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+Listing the products in the shelf (15-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 28 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 16 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 17 | 13.7 | 15-01-2023)
+
+==== Skipping to the next day (16-04-2023) ====
+   -> Updated quality of "Wine Valid" from 28 to 29
+
+   -> Updated quality of "Wine Expired" from 16 to 17
+
+   -> Quality change of "Custom Valid" is set to 10
+   -> Updated quality of "Custom Valid" from 17 to 27
+   -> Updated price of "Custom Valid" from 13.7 to 14.7
+
+Listing the products in the shelf (16-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 29 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 17 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 27 | 14.7 | 15-01-2023)
+
+==== Skipping to the next day (17-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 5
+Listing the products in the shelf (17-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 29 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 17 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 27 | 14.7 | 15-01-2023)
+
+==== Skipping to the next day (18-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+   -> Updated quality of "Custom Valid" from 27 to 33
+   -> Updated price of "Custom Valid" from 14.7 to 15.3
+
+Listing the products in the shelf (18-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 29 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 17 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 33 | 15.3 | 15-01-2023)
+
+==== Skipping to the next day (19-04-2023) ====
+   -> Quality change of "Custom Valid" is set to -1
+Listing the products in the shelf (19-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 29 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 17 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 33 | 15.3 | 15-01-2023)
+
+==== Skipping to the next day (20-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 5
+   -> Updated quality of "Custom Valid" from 33 to 38
+   -> Updated price of "Custom Valid" from 15.3 to 15.8
+
+Listing the products in the shelf (20-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 29 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 17 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 38 | 15.8 | 15-01-2023)
+
+==== Skipping to the next day (21-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 7
+Listing the products in the shelf (21-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 29 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 17 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 38 | 15.8 | 15-01-2023)
+
+==== Skipping to the next day (22-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 2
+   -> Updated quality of "Custom Valid" from 38 to 40
+   -> Updated price of "Custom Valid" from 15.8 to 16.0
+
+Listing the products in the shelf (22-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 29 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 17 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 40 | 16.0 | 15-01-2023)
+
+==== Skipping to the next day (23-04-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+Listing the products in the shelf (23-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 29 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 17 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 40 | 16.0 | 15-01-2023)
+
+==== Skipping to the next day (24-04-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+   -> Updated quality of "Custom Valid" from 40 to 36
+   -> Updated price of "Custom Valid" from 16.0 to 15.6
+
+Listing the products in the shelf (24-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 29 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 17 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 36 | 15.6 | 15-01-2023)
+
+==== Skipping to the next day (25-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 9
+Listing the products in the shelf (25-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 29 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 17 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 36 | 15.6 | 15-01-2023)
+
+==== Skipping to the next day (26-04-2023) ====
+   -> Updated quality of "Wine Valid" from 29 to 30
+
+   -> Updated quality of "Wine Expired" from 17 to 18
+
+   -> Quality change of "Custom Valid" is set to -5
+   -> Updated quality of "Custom Valid" from 36 to 31
+   -> Updated price of "Custom Valid" from 15.6 to 15.1
+
+Listing the products in the shelf (26-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 30 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 18 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 31 | 15.1 | 15-01-2023)
+
+==== Skipping to the next day (27-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 7
+Listing the products in the shelf (27-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 30 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 18 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 31 | 15.1 | 15-01-2023)
+
+==== Skipping to the next day (28-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 3
+   -> Updated quality of "Custom Valid" from 31 to 34
+   -> Updated price of "Custom Valid" from 15.1 to 15.4
+
+Listing the products in the shelf (28-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 30 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 18 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 34 | 15.4 | 15-01-2023)
+
+==== Skipping to the next day (29-04-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+Listing the products in the shelf (29-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 30 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 18 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 34 | 15.4 | 15-01-2023)
+
+==== Skipping to the next day (30-04-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+   -> Updated quality of "Custom Valid" from 34 to 31
+   -> Updated price of "Custom Valid" from 15.4 to 15.1
+
+Listing the products in the shelf (30-04-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 30 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 18 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 31 | 15.1 | 15-01-2023)
+
+==== Skipping to the next day (01-05-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+Listing the products in the shelf (01-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 30 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 18 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 31 | 15.1 | 15-01-2023)
+
+==== Skipping to the next day (02-05-2023) ====
+   -> Updated quality of "Custom Valid" from 31 to 27
+   -> Updated price of "Custom Valid" from 15.1 to 14.7
+
+Listing the products in the shelf (02-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 30 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 18 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 27 | 14.7 | 15-01-2023)
+
+==== Skipping to the next day (03-05-2023) ====
+Listing the products in the shelf (03-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 30 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 18 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 27 | 14.7 | 15-01-2023)
+
+==== Skipping to the next day (04-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+   -> Updated quality of "Custom Valid" from 27 to 28
+   -> Updated price of "Custom Valid" from 14.7 to 14.8
+
+Listing the products in the shelf (04-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 30 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 18 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 28 | 14.8 | 15-01-2023)
+
+==== Skipping to the next day (05-05-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+Listing the products in the shelf (05-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 30 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 18 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 28 | 14.8 | 15-01-2023)
+
+==== Skipping to the next day (06-05-2023) ====
+   -> Updated quality of "Wine Valid" from 30 to 31
+
+   -> Updated quality of "Wine Expired" from 18 to 19
+
+   -> Quality change of "Custom Valid" is set to 10
+   -> Updated quality of "Custom Valid" from 28 to 38
+   -> Updated price of "Custom Valid" from 14.8 to 15.8
+
+Listing the products in the shelf (06-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 31 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 19 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 38 | 15.8 | 15-01-2023)
+
+==== Skipping to the next day (07-05-2023) ====
+Listing the products in the shelf (07-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 31 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 19 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 38 | 15.8 | 15-01-2023)
+
+==== Skipping to the next day (08-05-2023) ====
+   -> Quality change of "Custom Valid" is set to -9
+   -> Updated quality of "Custom Valid" from 38 to 29
+   -> Updated price of "Custom Valid" from 15.8 to 14.9
+
+Listing the products in the shelf (08-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 31 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 19 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 29 | 14.9 | 15-01-2023)
+
+==== Skipping to the next day (09-05-2023) ====
+   -> Quality change of "Custom Valid" is set to -8
+Listing the products in the shelf (09-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 31 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 19 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 29 | 14.9 | 15-01-2023)
+
+==== Skipping to the next day (10-05-2023) ====
+   -> Quality change of "Custom Valid" is set to -2
+   -> Updated quality of "Custom Valid" from 29 to 27
+   -> Updated price of "Custom Valid" from 14.9 to 14.7
+
+Listing the products in the shelf (10-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 31 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 19 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 27 | 14.7 | 15-01-2023)
+
+==== Skipping to the next day (11-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+Listing the products in the shelf (11-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 31 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 19 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 27 | 14.7 | 15-01-2023)
+
+==== Skipping to the next day (12-05-2023) ====
+   -> Quality change of "Custom Valid" is set to -1
+   -> Updated quality of "Custom Valid" from 27 to 26
+   -> Updated price of "Custom Valid" from 14.7 to 14.6
+
+Listing the products in the shelf (12-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 31 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 19 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 26 | 14.6 | 15-01-2023)
+
+==== Skipping to the next day (13-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 2
+Listing the products in the shelf (13-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 31 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 19 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 26 | 14.6 | 15-01-2023)
+
+==== Skipping to the next day (14-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+   -> Updated quality of "Custom Valid" from 26 to 27
+   -> Updated price of "Custom Valid" from 14.6 to 14.7
+
+Listing the products in the shelf (14-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 31 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 19 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 27 | 14.7 | 15-01-2023)
+
+==== Skipping to the next day (15-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+Listing the products in the shelf (15-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 31 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 19 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 27 | 14.7 | 15-01-2023)
+
+==== Skipping to the next day (16-05-2023) ====
+   -> Updated quality of "Wine Valid" from 31 to 32
+
+   -> Updated quality of "Wine Expired" from 19 to 20
+
+   -> Quality change of "Custom Valid" is set to -9
+   -> Updated quality of "Custom Valid" from 27 to 18
+   -> Updated price of "Custom Valid" from 14.7 to 13.8
+
+Listing the products in the shelf (16-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 32 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 20 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 18 | 13.8 | 15-01-2023)
+
+==== Skipping to the next day (17-05-2023) ====
+   -> Quality change of "Custom Valid" is set to -6
+Listing the products in the shelf (17-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 32 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 20 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 18 | 13.8 | 15-01-2023)
+
+==== Skipping to the next day (18-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+   -> Updated quality of "Custom Valid" from 18 to 22
+   -> Updated price of "Custom Valid" from 13.8 to 14.2
+
+Listing the products in the shelf (18-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 32 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 20 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 22 | 14.2 | 15-01-2023)
+
+==== Skipping to the next day (19-05-2023) ====
+   -> Quality change of "Custom Valid" is set to -6
+Listing the products in the shelf (19-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 32 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 20 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 22 | 14.2 | 15-01-2023)
+
+==== Skipping to the next day (20-05-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+   -> Updated quality of "Custom Valid" from 22 to 18
+   -> Updated price of "Custom Valid" from 14.2 to 13.8
+
+Listing the products in the shelf (20-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 32 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 20 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 18 | 13.8 | 15-01-2023)
+
+==== Skipping to the next day (21-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+Listing the products in the shelf (21-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 32 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 20 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 18 | 13.8 | 15-01-2023)
+
+==== Skipping to the next day (22-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 0
+Listing the products in the shelf (22-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 32 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 20 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 18 | 13.8 | 15-01-2023)
+
+==== Skipping to the next day (23-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+Listing the products in the shelf (23-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 32 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 20 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 18 | 13.8 | 15-01-2023)
+
+==== Skipping to the next day (24-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+   -> Updated quality of "Custom Valid" from 18 to 26
+   -> Updated price of "Custom Valid" from 13.8 to 14.6
+
+Listing the products in the shelf (24-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 32 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 20 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 26 | 14.6 | 15-01-2023)
+
+==== Skipping to the next day (25-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+Listing the products in the shelf (25-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 32 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 20 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 26 | 14.6 | 15-01-2023)
+
+==== Skipping to the next day (26-05-2023) ====
+   -> Updated quality of "Wine Valid" from 32 to 33
+
+   -> Updated quality of "Wine Expired" from 20 to 21
+
+   -> Quality change of "Custom Valid" is set to -3
+   -> Updated quality of "Custom Valid" from 26 to 23
+   -> Updated price of "Custom Valid" from 14.6 to 14.3
+
+Listing the products in the shelf (26-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 33 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 21 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 23 | 14.3 | 15-01-2023)
+
+==== Skipping to the next day (27-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 10
+Listing the products in the shelf (27-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 33 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 21 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 23 | 14.3 | 15-01-2023)
+
+==== Skipping to the next day (28-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+   -> Updated quality of "Custom Valid" from 23 to 24
+   -> Updated price of "Custom Valid" from 14.3 to 14.4
+
+Listing the products in the shelf (28-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 33 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 21 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 24 | 14.4 | 15-01-2023)
+
+==== Skipping to the next day (29-05-2023) ====
+   -> Quality change of "Custom Valid" is set to -10
+Listing the products in the shelf (29-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 33 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 21 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 24 | 14.4 | 15-01-2023)
+
+==== Skipping to the next day (30-05-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+   -> Updated quality of "Custom Valid" from 24 to 21
+   -> Updated price of "Custom Valid" from 14.4 to 14.1
+
+Listing the products in the shelf (30-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 33 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 21 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 21 | 14.1 | 15-01-2023)
+
+==== Skipping to the next day (31-05-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+Listing the products in the shelf (31-05-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 33 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 21 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 21 | 14.1 | 15-01-2023)
+
+==== Skipping to the next day (01-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -7
+   -> Updated quality of "Custom Valid" from 21 to 14
+   -> Updated price of "Custom Valid" from 14.1 to 13.4
+
+Listing the products in the shelf (01-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 33 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 21 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 14 | 13.4 | 15-01-2023)
+
+==== Skipping to the next day (02-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+Listing the products in the shelf (02-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 33 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 21 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 14 | 13.4 | 15-01-2023)
+
+==== Skipping to the next day (03-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -10
+   -> Updated quality of "Custom Valid" from 14 to 4
+   -> Updated price of "Custom Valid" from 13.4 to 12.4
+
+Listing the products in the shelf (03-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 33 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 21 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 4 | 12.4 | 15-01-2023)
+
+==== Skipping to the next day (04-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+Listing the products in the shelf (04-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 33 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 21 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 4 | 12.4 | 15-01-2023)
+
+==== Skipping to the next day (05-06-2023) ====
+   -> Updated quality of "Wine Valid" from 33 to 34
+
+   -> Updated quality of "Wine Expired" from 21 to 22
+
+   -> Quality change of "Custom Valid" is set to -9
+   -> Updated quality of "Custom Valid" from 4 to -5
+   -> Updated price of "Custom Valid" from 12.4 to 11.5
+
+Listing the products in the shelf (05-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 34 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 22 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -5 | 11.5 | 15-01-2023)
+
+==== Skipping to the next day (06-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -6
+Listing the products in the shelf (06-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 34 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 22 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -5 | 11.5 | 15-01-2023)
+
+==== Skipping to the next day (07-06-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+   -> Updated quality of "Custom Valid" from -5 to 1
+   -> Updated price of "Custom Valid" from 11.5 to 12.1
+
+Listing the products in the shelf (07-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 34 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 22 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (08-06-2023) ====
+   -> Quality change of "Custom Valid" is set to 3
+Listing the products in the shelf (08-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 34 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 22 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (09-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -8
+   -> Updated quality of "Custom Valid" from 1 to -7
+   -> Updated price of "Custom Valid" from 12.1 to 11.3
+
+Listing the products in the shelf (09-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 34 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 22 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (10-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -1
+Listing the products in the shelf (10-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 34 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 22 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (11-06-2023) ====
+   -> Quality change of "Custom Valid" is set to 10
+   -> Updated quality of "Custom Valid" from -7 to 3
+   -> Updated price of "Custom Valid" from 11.3 to 12.3
+
+Listing the products in the shelf (11-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 34 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 22 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 3 | 12.3 | 15-01-2023)
+
+==== Skipping to the next day (12-06-2023) ====
+   -> Quality change of "Custom Valid" is set to 0
+Listing the products in the shelf (12-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 34 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 22 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 3 | 12.3 | 15-01-2023)
+
+==== Skipping to the next day (13-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -10
+   -> Updated quality of "Custom Valid" from 3 to -7
+   -> Updated price of "Custom Valid" from 12.3 to 11.3
+
+Listing the products in the shelf (13-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 34 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 22 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (14-06-2023) ====
+   -> Quality change of "Custom Valid" is set to 3
+Listing the products in the shelf (14-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 34 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 22 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (15-06-2023) ====
+   -> Updated quality of "Wine Valid" from 34 to 35
+
+   -> Updated quality of "Wine Expired" from 22 to 23
+
+   -> Quality change of "Custom Valid" is set to 2
+   -> Updated quality of "Custom Valid" from -7 to -5
+   -> Updated price of "Custom Valid" from 11.3 to 11.5
+
+Listing the products in the shelf (15-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 35 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 23 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -5 | 11.5 | 15-01-2023)
+
+==== Skipping to the next day (16-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+Listing the products in the shelf (16-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 35 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 23 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -5 | 11.5 | 15-01-2023)
+
+==== Skipping to the next day (17-06-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+   -> Updated quality of "Custom Valid" from -5 to 3
+   -> Updated price of "Custom Valid" from 11.5 to 12.3
+
+Listing the products in the shelf (17-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 35 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 23 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 3 | 12.3 | 15-01-2023)
+
+==== Skipping to the next day (18-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -10
+Listing the products in the shelf (18-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 35 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 23 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 3 | 12.3 | 15-01-2023)
+
+==== Skipping to the next day (19-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -9
+   -> Updated quality of "Custom Valid" from 3 to -6
+   -> Updated price of "Custom Valid" from 12.3 to 11.4
+
+Listing the products in the shelf (19-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 35 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 23 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -6 | 11.4 | 15-01-2023)
+
+==== Skipping to the next day (20-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -6
+Listing the products in the shelf (20-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 35 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 23 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -6 | 11.4 | 15-01-2023)
+
+==== Skipping to the next day (21-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+   -> Updated quality of "Custom Valid" from -6 to -10
+   -> Updated price of "Custom Valid" from 11.4 to 11.0
+
+Listing the products in the shelf (21-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 35 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 23 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -10 | 11.0 | 15-01-2023)
+
+==== Skipping to the next day (22-06-2023) ====
+   -> Quality change of "Custom Valid" is set to 9
+Listing the products in the shelf (22-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 35 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 23 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -10 | 11.0 | 15-01-2023)
+
+==== Skipping to the next day (23-06-2023) ====
+   -> Quality change of "Custom Valid" is set to 2
+   -> Updated quality of "Custom Valid" from -10 to -8
+   -> Updated price of "Custom Valid" from 11.0 to 11.2
+
+Listing the products in the shelf (23-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 35 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 23 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -8 | 11.2 | 15-01-2023)
+
+==== Skipping to the next day (24-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -5
+Listing the products in the shelf (24-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 35 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 23 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -8 | 11.2 | 15-01-2023)
+
+==== Skipping to the next day (25-06-2023) ====
+   -> Updated quality of "Wine Valid" from 35 to 36
+
+   -> Updated quality of "Wine Expired" from 23 to 24
+
+   -> Quality change of "Custom Valid" is set to -10
+   -> Updated quality of "Custom Valid" from -8 to -18
+   -> Updated price of "Custom Valid" from 11.2 to 10.2
+
+Listing the products in the shelf (25-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 36 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 24 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -18 | 10.2 | 15-01-2023)
+
+==== Skipping to the next day (26-06-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+Listing the products in the shelf (26-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 36 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 24 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -18 | 10.2 | 15-01-2023)
+
+==== Skipping to the next day (27-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -6
+   -> Updated quality of "Custom Valid" from -18 to -24
+   -> Updated price of "Custom Valid" from 10.2 to 9.6
+
+Listing the products in the shelf (27-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 36 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 24 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -24 | 9.6 | 15-01-2023)
+
+==== Skipping to the next day (28-06-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+Listing the products in the shelf (28-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 36 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 24 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -24 | 9.6 | 15-01-2023)
+
+==== Skipping to the next day (29-06-2023) ====
+   -> Quality change of "Custom Valid" is set to 2
+   -> Updated quality of "Custom Valid" from -24 to -22
+   -> Updated price of "Custom Valid" from 9.6 to 9.8
+
+Listing the products in the shelf (29-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 36 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 24 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -22 | 9.8 | 15-01-2023)
+
+==== Skipping to the next day (30-06-2023) ====
+   -> Quality change of "Custom Valid" is set to -5
+Listing the products in the shelf (30-06-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 36 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 24 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -22 | 9.8 | 15-01-2023)
+
+==== Skipping to the next day (01-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -7
+   -> Updated quality of "Custom Valid" from -22 to -29
+   -> Updated price of "Custom Valid" from 9.8 to 9.1
+
+Listing the products in the shelf (01-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 36 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 24 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -29 | 9.1 | 15-01-2023)
+
+==== Skipping to the next day (02-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+Listing the products in the shelf (02-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 36 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 24 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -29 | 9.1 | 15-01-2023)
+
+==== Skipping to the next day (03-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 10
+   -> Updated quality of "Custom Valid" from -29 to -19
+   -> Updated price of "Custom Valid" from 9.1 to 10.1
+
+Listing the products in the shelf (03-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 36 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 24 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -19 | 10.1 | 15-01-2023)
+
+==== Skipping to the next day (04-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -10
+Listing the products in the shelf (04-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 36 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 24 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -19 | 10.1 | 15-01-2023)
+
+==== Skipping to the next day (05-07-2023) ====
+   -> Updated quality of "Wine Valid" from 36 to 37
+
+   -> Updated quality of "Wine Expired" from 24 to 25
+
+   -> Quality change of "Custom Valid" is set to -4
+   -> Updated quality of "Custom Valid" from -19 to -23
+   -> Updated price of "Custom Valid" from 10.1 to 9.7
+
+Listing the products in the shelf (05-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 37 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 25 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -23 | 9.7 | 15-01-2023)
+
+==== Skipping to the next day (06-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -10
+Listing the products in the shelf (06-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 37 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 25 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -23 | 9.7 | 15-01-2023)
+
+==== Skipping to the next day (07-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 5
+   -> Updated quality of "Custom Valid" from -23 to -18
+   -> Updated price of "Custom Valid" from 9.7 to 10.2
+
+Listing the products in the shelf (07-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 37 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 25 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -18 | 10.2 | 15-01-2023)
+
+==== Skipping to the next day (08-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -9
+Listing the products in the shelf (08-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 37 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 25 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -18 | 10.2 | 15-01-2023)
+
+==== Skipping to the next day (09-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+   -> Updated quality of "Custom Valid" from -18 to -22
+   -> Updated price of "Custom Valid" from 10.2 to 9.8
+
+Listing the products in the shelf (09-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 37 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 25 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -22 | 9.8 | 15-01-2023)
+
+==== Skipping to the next day (10-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 5
+Listing the products in the shelf (10-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 37 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 25 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -22 | 9.8 | 15-01-2023)
+
+==== Skipping to the next day (11-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -2
+   -> Updated quality of "Custom Valid" from -22 to -24
+   -> Updated price of "Custom Valid" from 9.8 to 9.6
+
+Listing the products in the shelf (11-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 37 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 25 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -24 | 9.6 | 15-01-2023)
+
+==== Skipping to the next day (12-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 10
+Listing the products in the shelf (12-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 37 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 25 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -24 | 9.6 | 15-01-2023)
+
+==== Skipping to the next day (13-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 2
+   -> Updated quality of "Custom Valid" from -24 to -22
+   -> Updated price of "Custom Valid" from 9.6 to 9.8
+
+Listing the products in the shelf (13-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 37 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 25 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -22 | 9.8 | 15-01-2023)
+
+==== Skipping to the next day (14-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -6
+Listing the products in the shelf (14-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 37 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 25 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -22 | 9.8 | 15-01-2023)
+
+==== Skipping to the next day (15-07-2023) ====
+   -> Updated quality of "Wine Valid" from 37 to 38
+
+   -> Updated quality of "Wine Expired" from 25 to 26
+
+   -> Quality change of "Custom Valid" is set to 2
+   -> Updated quality of "Custom Valid" from -22 to -20
+   -> Updated price of "Custom Valid" from 9.8 to 10.0
+
+Listing the products in the shelf (15-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 38 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 26 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -20 | 10.0 | 15-01-2023)
+
+==== Skipping to the next day (16-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+Listing the products in the shelf (16-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 38 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 26 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -20 | 10.0 | 15-01-2023)
+
+==== Skipping to the next day (17-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -2
+   -> Updated quality of "Custom Valid" from -20 to -22
+   -> Updated price of "Custom Valid" from 10.0 to 9.8
+
+Listing the products in the shelf (17-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 38 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 26 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -22 | 9.8 | 15-01-2023)
+
+==== Skipping to the next day (18-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 7
+Listing the products in the shelf (18-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 38 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 26 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -22 | 9.8 | 15-01-2023)
+
+==== Skipping to the next day (19-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+   -> Updated quality of "Custom Valid" from -22 to -14
+   -> Updated price of "Custom Valid" from 9.8 to 10.6
+
+Listing the products in the shelf (19-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 38 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 26 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -14 | 10.6 | 15-01-2023)
+
+==== Skipping to the next day (20-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -2
+Listing the products in the shelf (20-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 38 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 26 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -14 | 10.6 | 15-01-2023)
+
+==== Skipping to the next day (21-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -8
+   -> Updated quality of "Custom Valid" from -14 to -22
+   -> Updated price of "Custom Valid" from 10.6 to 9.8
+
+Listing the products in the shelf (21-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 38 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 26 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -22 | 9.8 | 15-01-2023)
+
+==== Skipping to the next day (22-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 7
+Listing the products in the shelf (22-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 38 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 26 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -22 | 9.8 | 15-01-2023)
+
+==== Skipping to the next day (23-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+   -> Updated quality of "Custom Valid" from -22 to -25
+   -> Updated price of "Custom Valid" from 9.8 to 9.5
+
+Listing the products in the shelf (23-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 38 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 26 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -25 | 9.5 | 15-01-2023)
+
+==== Skipping to the next day (24-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -6
+Listing the products in the shelf (24-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 38 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 26 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -25 | 9.5 | 15-01-2023)
+
+==== Skipping to the next day (25-07-2023) ====
+   -> Updated quality of "Wine Valid" from 38 to 39
+
+   -> Updated quality of "Wine Expired" from 26 to 27
+
+   -> Quality change of "Custom Valid" is set to 9
+   -> Updated quality of "Custom Valid" from -25 to -16
+   -> Updated price of "Custom Valid" from 9.5 to 10.4
+
+Listing the products in the shelf (25-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 39 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 27 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -16 | 10.4 | 15-01-2023)
+
+==== Skipping to the next day (26-07-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+Listing the products in the shelf (26-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 39 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 27 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -16 | 10.4 | 15-01-2023)
+
+==== Skipping to the next day (27-07-2023) ====
+   -> Updated quality of "Custom Valid" from -16 to -19
+   -> Updated price of "Custom Valid" from 10.4 to 10.1
+
+Listing the products in the shelf (27-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 39 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 27 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -19 | 10.1 | 15-01-2023)
+
+==== Skipping to the next day (28-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 5
+Listing the products in the shelf (28-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 39 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 27 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -19 | 10.1 | 15-01-2023)
+
+==== Skipping to the next day (29-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 2
+   -> Updated quality of "Custom Valid" from -19 to -17
+   -> Updated price of "Custom Valid" from 10.1 to 10.3
+
+Listing the products in the shelf (29-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 39 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 27 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -17 | 10.3 | 15-01-2023)
+
+==== Skipping to the next day (30-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+Listing the products in the shelf (30-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 39 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 27 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -17 | 10.3 | 15-01-2023)
+
+==== Skipping to the next day (31-07-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+   -> Updated quality of "Custom Valid" from -17 to -13
+   -> Updated price of "Custom Valid" from 10.3 to 10.7
+
+Listing the products in the shelf (31-07-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 39 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 27 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -13 | 10.7 | 15-01-2023)
+
+==== Skipping to the next day (01-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 0
+Listing the products in the shelf (01-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 39 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 27 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -13 | 10.7 | 15-01-2023)
+
+==== Skipping to the next day (02-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 5
+   -> Updated quality of "Custom Valid" from -13 to -8
+   -> Updated price of "Custom Valid" from 10.7 to 11.2
+
+Listing the products in the shelf (02-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 39 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 27 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -8 | 11.2 | 15-01-2023)
+
+==== Skipping to the next day (03-08-2023) ====
+   -> Quality change of "Custom Valid" is set to -2
+Listing the products in the shelf (03-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 39 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 27 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -8 | 11.2 | 15-01-2023)
+
+==== Skipping to the next day (04-08-2023) ====
+   -> Updated quality of "Wine Valid" from 39 to 40
+
+   -> Updated quality of "Wine Expired" from 27 to 28
+
+   -> Quality change of "Custom Valid" is set to -5
+   -> Updated quality of "Custom Valid" from -8 to -13
+   -> Updated price of "Custom Valid" from 11.2 to 10.7
+
+Listing the products in the shelf (04-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 40 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 28 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -13 | 10.7 | 15-01-2023)
+
+==== Skipping to the next day (05-08-2023) ====
+   -> Quality change of "Custom Valid" is set to -8
+Listing the products in the shelf (05-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 40 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 28 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -13 | 10.7 | 15-01-2023)
+
+==== Skipping to the next day (06-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+   -> Updated quality of "Custom Valid" from -13 to -7
+   -> Updated price of "Custom Valid" from 10.7 to 11.3
+
+Listing the products in the shelf (06-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 40 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 28 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (07-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 5
+Listing the products in the shelf (07-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 40 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 28 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -7 | 11.3 | 15-01-2023)
+
+==== Skipping to the next day (08-08-2023) ====
+   -> Quality change of "Custom Valid" is set to -1
+   -> Updated quality of "Custom Valid" from -7 to -8
+   -> Updated price of "Custom Valid" from 11.3 to 11.2
+
+Listing the products in the shelf (08-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 40 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 28 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -8 | 11.2 | 15-01-2023)
+
+==== Skipping to the next day (09-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 1
+Listing the products in the shelf (09-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 40 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 28 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -8 | 11.2 | 15-01-2023)
+
+==== Skipping to the next day (10-08-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+   -> Updated quality of "Custom Valid" from -8 to -11
+   -> Updated price of "Custom Valid" from 11.2 to 10.9
+
+Listing the products in the shelf (10-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 40 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 28 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -11 | 10.9 | 15-01-2023)
+
+==== Skipping to the next day (11-08-2023) ====
+   -> Quality change of "Custom Valid" is set to -1
+Listing the products in the shelf (11-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 40 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 28 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -11 | 10.9 | 15-01-2023)
+
+==== Skipping to the next day (12-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+   -> Updated quality of "Custom Valid" from -11 to -3
+   -> Updated price of "Custom Valid" from 10.9 to 11.7
+
+Listing the products in the shelf (12-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 40 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 28 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -3 | 11.7 | 15-01-2023)
+
+==== Skipping to the next day (13-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+Listing the products in the shelf (13-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 40 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 28 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -3 | 11.7 | 15-01-2023)
+
+==== Skipping to the next day (14-08-2023) ====
+   -> Updated quality of "Wine Valid" from 40 to 41
+
+   -> Updated quality of "Wine Expired" from 28 to 29
+
+   -> Quality change of "Custom Valid" is set to 4
+   -> Updated quality of "Custom Valid" from -3 to 1
+   -> Updated price of "Custom Valid" from 11.7 to 12.1
+
+Listing the products in the shelf (14-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 41 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 29 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (15-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 10
+Listing the products in the shelf (15-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 41 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 29 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 1 | 12.1 | 15-01-2023)
+
+==== Skipping to the next day (16-08-2023) ====
+   -> Updated quality of "Custom Valid" from 1 to 11
+   -> Updated price of "Custom Valid" from 12.1 to 13.1
+
+Listing the products in the shelf (16-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 41 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 29 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 11 | 13.1 | 15-01-2023)
+
+==== Skipping to the next day (17-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 5
+Listing the products in the shelf (17-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 41 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 29 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 11 | 13.1 | 15-01-2023)
+
+==== Skipping to the next day (18-08-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+   -> Updated quality of "Custom Valid" from 11 to 8
+   -> Updated price of "Custom Valid" from 13.1 to 12.8
+
+Listing the products in the shelf (18-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 41 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 29 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 8 | 12.8 | 15-01-2023)
+
+==== Skipping to the next day (19-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 10
+Listing the products in the shelf (19-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 41 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 29 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 8 | 12.8 | 15-01-2023)
+
+==== Skipping to the next day (20-08-2023) ====
+   -> Quality change of "Custom Valid" is set to -8
+   -> Updated quality of "Custom Valid" from 8 to 0
+   -> Updated price of "Custom Valid" from 12.8 to 12.0
+
+Listing the products in the shelf (20-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 41 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 29 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 0 | 12.0 | 15-01-2023)
+
+==== Skipping to the next day (21-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+Listing the products in the shelf (21-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 41 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 29 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 0 | 12.0 | 15-01-2023)
+
+==== Skipping to the next day (22-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+   -> Updated quality of "Custom Valid" from 0 to 4
+   -> Updated price of "Custom Valid" from 12.0 to 12.4
+
+Listing the products in the shelf (22-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 41 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 29 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 4 | 12.4 | 15-01-2023)
+
+==== Skipping to the next day (23-08-2023) ====
+   -> Quality change of "Custom Valid" is set to -7
+Listing the products in the shelf (23-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 41 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 29 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 4 | 12.4 | 15-01-2023)
+
+==== Skipping to the next day (24-08-2023) ====
+   -> Updated quality of "Wine Valid" from 41 to 42
+
+   -> Updated quality of "Wine Expired" from 29 to 30
+
+   -> Quality change of "Custom Valid" is set to 9
+   -> Updated quality of "Custom Valid" from 4 to 13
+   -> Updated price of "Custom Valid" from 12.4 to 13.3
+
+Listing the products in the shelf (24-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 42 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 30 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 13 | 13.3 | 15-01-2023)
+
+==== Skipping to the next day (25-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+Listing the products in the shelf (25-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 42 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 30 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 13 | 13.3 | 15-01-2023)
+
+==== Skipping to the next day (26-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 3
+   -> Updated quality of "Custom Valid" from 13 to 16
+   -> Updated price of "Custom Valid" from 13.3 to 13.6
+
+Listing the products in the shelf (26-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 42 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 30 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 16 | 13.6 | 15-01-2023)
+
+==== Skipping to the next day (27-08-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+Listing the products in the shelf (27-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 42 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 30 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 16 | 13.6 | 15-01-2023)
+
+==== Skipping to the next day (28-08-2023) ====
+   -> Quality change of "Custom Valid" is set to -2
+   -> Updated quality of "Custom Valid" from 16 to 14
+   -> Updated price of "Custom Valid" from 13.6 to 13.4
+
+Listing the products in the shelf (28-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 42 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 30 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 14 | 13.4 | 15-01-2023)
+
+==== Skipping to the next day (29-08-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+Listing the products in the shelf (29-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 42 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 30 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 14 | 13.4 | 15-01-2023)
+
+==== Skipping to the next day (30-08-2023) ====
+   -> Quality change of "Custom Valid" is set to -8
+   -> Updated quality of "Custom Valid" from 14 to 6
+   -> Updated price of "Custom Valid" from 13.4 to 12.6
+
+Listing the products in the shelf (30-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 42 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 30 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 6 | 12.6 | 15-01-2023)
+
+==== Skipping to the next day (31-08-2023) ====
+Listing the products in the shelf (31-08-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 42 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 30 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 6 | 12.6 | 15-01-2023)
+
+==== Skipping to the next day (01-09-2023) ====
+   -> Quality change of "Custom Valid" is set to 7
+   -> Updated quality of "Custom Valid" from 6 to 13
+   -> Updated price of "Custom Valid" from 12.6 to 13.3
+
+Listing the products in the shelf (01-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 42 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 30 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 13 | 13.3 | 15-01-2023)
+
+==== Skipping to the next day (02-09-2023) ====
+   -> Quality change of "Custom Valid" is set to -6
+Listing the products in the shelf (02-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 42 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 30 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 13 | 13.3 | 15-01-2023)
+
+==== Skipping to the next day (03-09-2023) ====
+   -> Updated quality of "Wine Valid" from 42 to 43
+
+   -> Updated quality of "Wine Expired" from 30 to 31
+
+   -> Quality change of "Custom Valid" is set to -7
+   -> Updated quality of "Custom Valid" from 13 to 6
+   -> Updated price of "Custom Valid" from 13.3 to 12.6
+
+Listing the products in the shelf (03-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 43 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 31 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 6 | 12.6 | 15-01-2023)
+
+==== Skipping to the next day (04-09-2023) ====
+   -> Quality change of "Custom Valid" is set to 5
+Listing the products in the shelf (04-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 43 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 31 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 6 | 12.6 | 15-01-2023)
+
+==== Skipping to the next day (05-09-2023) ====
+   -> Quality change of "Custom Valid" is set to 10
+   -> Updated quality of "Custom Valid" from 6 to 16
+   -> Updated price of "Custom Valid" from 12.6 to 13.6
+
+Listing the products in the shelf (05-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 43 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 31 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 16 | 13.6 | 15-01-2023)
+
+==== Skipping to the next day (06-09-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+Listing the products in the shelf (06-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 43 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 31 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 16 | 13.6 | 15-01-2023)
+
+==== Skipping to the next day (07-09-2023) ====
+   -> Quality change of "Custom Valid" is set to -9
+   -> Updated quality of "Custom Valid" from 16 to 7
+   -> Updated price of "Custom Valid" from 13.6 to 12.7
+
+Listing the products in the shelf (07-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 43 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 31 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 7 | 12.7 | 15-01-2023)
+
+==== Skipping to the next day (08-09-2023) ====
+Listing the products in the shelf (08-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 43 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 31 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 7 | 12.7 | 15-01-2023)
+
+==== Skipping to the next day (09-09-2023) ====
+   -> Quality change of "Custom Valid" is set to -4
+   -> Updated quality of "Custom Valid" from 7 to 3
+   -> Updated price of "Custom Valid" from 12.7 to 12.3
+
+Listing the products in the shelf (09-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 43 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 31 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 3 | 12.3 | 15-01-2023)
+
+==== Skipping to the next day (10-09-2023) ====
+Listing the products in the shelf (10-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 43 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 31 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | 3 | 12.3 | 15-01-2023)
+
+==== Skipping to the next day (11-09-2023) ====
+   -> Quality change of "Custom Valid" is set to -5
+   -> Updated quality of "Custom Valid" from 3 to -2
+   -> Updated price of "Custom Valid" from 12.3 to 11.8
+
+Listing the products in the shelf (11-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 43 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 31 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -2 | 11.8 | 15-01-2023)
+
+==== Skipping to the next day (12-09-2023) ====
+   -> Quality change of "Custom Valid" is set to -8
+Listing the products in the shelf (12-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 43 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 31 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -2 | 11.8 | 15-01-2023)
+
+==== Skipping to the next day (13-09-2023) ====
+   -> Updated quality of "Wine Valid" from 43 to 44
+
+   -> Updated quality of "Wine Expired" from 31 to 32
+
+   -> Quality change of "Custom Valid" is set to -3
+   -> Updated quality of "Custom Valid" from -2 to -5
+   -> Updated price of "Custom Valid" from 11.8 to 11.5
+
+Listing the products in the shelf (13-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 44 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 32 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -5 | 11.5 | 15-01-2023)
+
+==== Skipping to the next day (14-09-2023) ====
+   -> Quality change of "Custom Valid" is set to 3
+Listing the products in the shelf (14-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 44 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 32 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -5 | 11.5 | 15-01-2023)
+
+==== Skipping to the next day (15-09-2023) ====
+   -> Quality change of "Custom Valid" is set to -5
+   -> Updated quality of "Custom Valid" from -5 to -10
+   -> Updated price of "Custom Valid" from 11.5 to 11.0
+
+Listing the products in the shelf (15-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 44 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 32 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -10 | 11.0 | 15-01-2023)
+
+==== Skipping to the next day (16-09-2023) ====
+   -> Quality change of "Custom Valid" is set to 6
+Listing the products in the shelf (16-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 44 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 32 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -10 | 11.0 | 15-01-2023)
+
+==== Skipping to the next day (17-09-2023) ====
+   -> Quality change of "Custom Valid" is set to 4
+   -> Updated quality of "Custom Valid" from -10 to -6
+   -> Updated price of "Custom Valid" from 11.0 to 11.4
+
+Listing the products in the shelf (17-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 44 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 32 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -6 | 11.4 | 15-01-2023)
+
+==== Skipping to the next day (18-09-2023) ====
+   -> Quality change of "Custom Valid" is set to -7
+Listing the products in the shelf (18-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 44 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 32 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -6 | 11.4 | 15-01-2023)
+
+==== Skipping to the next day (19-09-2023) ====
+   -> Quality change of "Custom Valid" is set to -6
+   -> Updated quality of "Custom Valid" from -6 to -12
+   -> Updated price of "Custom Valid" from 11.4 to 10.8
+
+Listing the products in the shelf (19-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 44 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 32 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -12 | 10.8 | 15-01-2023)
+
+==== Skipping to the next day (20-09-2023) ====
+   -> Quality change of "Custom Valid" is set to 5
+Listing the products in the shelf (20-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 44 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 32 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -12 | 10.8 | 15-01-2023)
+
+==== Skipping to the next day (21-09-2023) ====
+   -> Quality change of "Custom Valid" is set to 8
+   -> Updated quality of "Custom Valid" from -12 to -4
+   -> Updated price of "Custom Valid" from 10.8 to 11.6
+
+Listing the products in the shelf (21-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 44 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 32 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -4 | 11.6 | 15-01-2023)
+
+==== Skipping to the next day (22-09-2023) ====
+   -> Quality change of "Custom Valid" is set to -3
+Listing the products in the shelf (22-09-2023)
+  (Item Number | Description | Quality | Price | Expiry Date)
+  [1] (Wine Valid | 44 | 31.5 | 26-12-2022)
+  [2] (Wine Expired | 32 | 10.3 | 24-11-2022)
+  [3] (Custom Valid | -4 | 11.6 | 15-01-2023)
+
+Process finished with exit code 0
