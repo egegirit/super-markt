@@ -15,7 +15,7 @@ public class Main {
         currentDate = new Date();
 
         // Possible input options are:
-        // InputType.SQL  InputType.CSV  InputType.CONSOLE
+        // InputType.SQL  InputType.CSV  InputType.SAMPLE
         InputType inputType = InputType.SAMPLE;
 
         // Initialize products from the given source
