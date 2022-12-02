@@ -6,6 +6,9 @@ import java.util.Date;
 public class Main {
 
     // The Date variable which stores the current date
+    // TODO: Localdate
+    // TODO: Maven/Gradle dependencies
+    // TODO: IDE meldungen
     public static Date currentDate;
 
     // Driver code
@@ -16,6 +19,7 @@ public class Main {
 
         // Possible input options are:
         // InputType.SQL  InputType.CSV  InputType.SAMPLE
+        // TODO: args
         InputType inputType = InputType.SAMPLE;
 
         // Initialize products from the given source

@@ -17,9 +17,11 @@ public class InputManager {
         System.out.println("Selected input type: " + inputType.toString() + "\n");
 
         // Read the products via created objects from code
+        // TODO: switch case
         if (inputType.equals(InputType.SAMPLE)) {
             // Create some sample products
-            Cheese cheese1 = new Cheese("Cheese Not In Interval", 45, 10.0, Utility.addDaysToCurrentDate(Main.currentDate, 15));
+            // TODO: var
+            var cheese1 = new Cheese("Cheese Not In Interval", 45, 10.0, Utility.addDaysToCurrentDate(Main.currentDate, 15));
             Cheese cheese2 = new Cheese("Cheese Bad Quality", 10, 7.0, Utility.addDaysToCurrentDate(Main.currentDate, 55));
             Cheese cheese3 = new Cheese("Cheese Valid", 40, 5.0, Utility.addDaysToCurrentDate(Main.currentDate, 65));
             Cheese cheese4 = new Cheese("Cheese Soon Bad Quality", 31, 10.0, Utility.addDaysToCurrentDate(Main.currentDate, 65));
